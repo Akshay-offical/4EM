@@ -1,0 +1,286 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Goal> : <4EM 2.7>
+VERSION <>
+TYPE <Goal Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Maximize Service Quality> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.3cm y:2.1cm w:4.8cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Customer Satisfaction Score / Marks> : <KPI>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:2.1cm y:6.1cm w:4.8cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <High Employee Turnover> : <Problem>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.4cm y:4.8cm w:4.8cm h:1.6cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:14.0cm y:1.1cm w:4.8cm h:1.6cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Low Salary Levels> : <Cause>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.4cm y:8.5cm w:4.8cm h:1.6cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Annual Budget Limit> : <Constraint>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:18.3cm y:3.7cm w:4.8cm h:1.6cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A strict financial restriction that cannot be exceeded."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <AI Chathbot Integration> : <Opportunity>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.3cm y:10.6cm w:4.8cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+RELATION <4EM_Relation>
+	FROM <AI Chathbot Integration> : <Opportunity>
+	TO <Maximize Service Quality> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE "Supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Maximize Service Quality> : <Goal>
+	TO <Customer Satisfaction Score / Marks> : <KPI>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE "measured by"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Maximize Service Quality> : <Goal>
+	TO <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE "Contradicts"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <High Employee Turnover> : <Problem>
+	TO <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE "Hinders"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Low Salary Levels> : <Cause>
+	TO <High Employee Turnover> : <Problem>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE "Causes"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Annual Budget Limit> : <Constraint>
+	TO <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE "Hinders"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

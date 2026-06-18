@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="lj0u-xqtAVIXIx28z9JK">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lkibQSULKhWNd056ehgj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Goal: Maximize Service Quality" vertex="1">
+          <mxGeometry height="60" width="180" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="KPI: Customer Satisfaction Score / Marks" vertex="1">
+          <mxGeometry height="60" width="180" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" value="Problem: High Employee Turnover" vertex="1">
+          <mxGeometry height="60" width="180" x="430" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Goal: Minimize Operational Costs " vertex="1">
+          <mxGeometry height="60" width="180" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Cause: Low Salary Levels" vertex="1">
+          <mxGeometry height="60" width="180" x="430" y="320" as="geometry" />
+        </mxCell>
+        <UserObject label="Constraint: Annual Budget Limit" tooltip="A strict financial restriction that cannot be exceeded." id="lkibQSULKhWNd056ehgj-6">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+            <mxGeometry height="60" width="180" x="690" y="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lkibQSULKhWNd056ehgj-7" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Opportunity: AI Chathbot Integration" vertex="1">
+          <mxGeometry height="60" width="180" x="240" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-8" edge="1" parent="1" source="lkibQSULKhWNd056ehgj-7" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="lkibQSULKhWNd056ehgj-1" value="Supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-9" edge="1" parent="1" source="lkibQSULKhWNd056ehgj-1" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="lkibQSULKhWNd056ehgj-2" value="measured by">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="80" as="sourcePoint" />
+            <mxPoint x="230" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-10" edge="1" parent="1" source="lkibQSULKhWNd056ehgj-1" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#d79b00;fontColor=#d79b00;" target="lkibQSULKhWNd056ehgj-4" value="Contradicts">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="30" as="sourcePoint" />
+            <mxPoint x="500" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-11" edge="1" parent="1" source="lkibQSULKhWNd056ehgj-3" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="lkibQSULKhWNd056ehgj-4" value="Hinders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="140" as="sourcePoint" />
+            <mxPoint x="650" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-12" edge="1" parent="1" source="lkibQSULKhWNd056ehgj-5" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#9673a6;fontColor=#9673a6;" target="lkibQSULKhWNd056ehgj-3" value="Causes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="280" as="sourcePoint" />
+            <mxPoint x="800" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lkibQSULKhWNd056ehgj-13" edge="1" parent="1" source="lkibQSULKhWNd056ehgj-6" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="lkibQSULKhWNd056ehgj-4" value="Hinders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="260" as="sourcePoint" />
+            <mxPoint x="810" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
