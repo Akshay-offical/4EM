@@ -1,7 +1,13 @@
 # 4EM
 This repo contains solution for draw.io models to be converted and implemented in 4EM modeling tool.
 
+<<<<<<< HEAD
 sample xml flow from draw.io
+=======
+## Sample XML Flow from draw.io
+
+```xml
+>>>>>>> 1e0d7f5 (Fix XML examples in README)
 <mxfile host="app.diagrams.net">
   <diagram name="Goal Model" id="goal-model">
     <mxGraphModel>
@@ -39,7 +45,11 @@ sample xml flow from draw.io
     </mxGraphModel>
   </diagram>
 </mxfile>
+<<<<<<< HEAD
 
+=======
+```
+>>>>>>> 1e0d7f5 (Fix XML examples in README)
 Key observation
 1. Every element is an <mxCell>
 2. Boxes have vertex="1" and a <mxGeometry> with x, y, width, height in pixels
@@ -254,10 +264,22 @@ Program workflow
 11. Print summary to console
 
 -----------------------------------------------------------
+<<<<<<< HEAD
 Stencil
 A stencil file is a JSON array wrapped in XML:
 example 
 //For a box/node:
+=======
+## Stencil
+
+A stencil file is a JSON array wrapped in XML.
+
+Example
+
+### For a box/node
+
+```xml
+>>>>>>> 1e0d7f5 (Fix XML examples in README)
 <mxGraphModel>
   <root>
     <mxCell id="0"/>
@@ -267,8 +289,16 @@ example
     </mxCell>
   </root>
 </mxGraphModel>
+<<<<<<< HEAD
 
 // For an arrow/edge:
+=======
+```
+
+### For an arrow/edge
+
+```xml
+>>>>>>> 1e0d7f5 (Fix XML examples in README)
 <mxGraphModel>
   <root>
     <mxCell id="0"/>
@@ -281,5 +311,9 @@ example
     </mxCell>
   </root>
 </mxGraphModel>
+<<<<<<< HEAD
 
+=======
+```
+>>>>>>> 1e0d7f5 (Fix XML examples in README)
 Create stencil using build_stencil_v2.py and running that will create sub models for 4em there edges and nodes. Then add that to draw.io library using File-> Open Library from -> Device and upload the xml files, then drag and drop custom solutions
