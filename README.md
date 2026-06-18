@@ -257,7 +257,7 @@ Program workflow
 Stencil
 A stencil file is a JSON array wrapped in XML:
 example 
-# For a box/node:
+//For a box/node:
 <mxGraphModel>
   <root>
     <mxCell id="0"/>
@@ -268,7 +268,7 @@ example
   </root>
 </mxGraphModel>
 
-# For an arrow/edge:
+// For an arrow/edge:
 <mxGraphModel>
   <root>
     <mxCell id="0"/>
