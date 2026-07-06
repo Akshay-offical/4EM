@@ -316,4 +316,11 @@ Example
 =======
 ```
 >>>>>>> 1e0d7f5 (Fix XML examples in README)
-Create stencil using build_stencil_v2.py and running that will create sub models for 4em there edges and nodes. Then add that to draw.io library using File-> Open Library from -> Device and upload the xml files, then drag and drop custom solutions
+Create stencil using build_stencil_v1.py and running that will create sub models for 4em there edges and nodes. Then add that to draw.io library using File-> Open Library from -> Device and upload the xml files, then drag and drop custom solutions
+
+
+--------------------
+
+version 2 changes 
+Added much more dynamic method for automatic conversion for all submodels based on the nodes names and values. 
+Also validated and checked conversion for 7 submodels. 

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="1429" dy="1506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Information Set: Purchase Order" tooltip="The initial document received from the customer containing items." id="QlyQ-q8FOqUJIYrdyrys-97">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="330" y="160" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Process: Check Availability" tooltip="Internal activity to check if items are in stock." id="QlyQ-q8FOqUJIYrdyrys-98">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="330" y="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Information Set: Approved Item List" tooltip="A list of items that are confirmed and ready for shipping." id="QlyQ-q8FOqUJIYrdyrys-99">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="330" y="460" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-129" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-130" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-100" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="Split (AND)" vertex="1">
+          <mxGeometry height="60" width="60" x="390" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-131" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-101" parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#fce4ec;strokeColor=#c2185b;" value="Comment: The company is very happy with the external partner" vertex="1">
+          <mxGeometry height="50" width="180" x="40" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-137" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-135" value="Output">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="External Process: Logistics Delivery" tooltip="The shipping process handled by an external courier service." id="QlyQ-q8FOqUJIYrdyrys-102">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1">
+            <mxGeometry height="60" width="180" x="150" y="730" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Process: Send Invoice" tooltip="Internal activity to bill the customer." id="QlyQ-q8FOqUJIYrdyrys-103">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="510" y="730" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Information Set: invoice" tooltip="The billing document sent to the customer." id="QlyQ-q8FOqUJIYrdyrys-105">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="510" y="880" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-123" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-106" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Join (AND)" vertex="1">
+          <mxGeometry height="60" width="60" x="384" y="1000" as="geometry" />
+        </mxCell>
+        <UserObject label="Process: Archieve Order" tooltip="Final activity to close the case." id="QlyQ-q8FOqUJIYrdyrys-107">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="324" y="1160" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-119" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QlyQ-q8FOqUJIYrdyrys-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-108" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="Information Set: Order Archieved" vertex="1">
+          <mxGeometry height="60" width="180" x="324" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-117" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-118" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-109" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Split (OR)" vertex="1">
+          <mxGeometry height="60" width="60" x="384" y="1440" as="geometry" />
+        </mxCell>
+        <UserObject label="Process: Send Email to ask for customer Feedback" tooltip="An email is sent to ask for feedback regarding the order process." id="QlyQ-q8FOqUJIYrdyrys-110">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="150" y="1580" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Process: Call Customer to ask for feedback" tooltip="The customer is called to ask for feedback regarding the order process." id="QlyQ-q8FOqUJIYrdyrys-111">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="510" y="1580" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-116" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-112" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" value="Join (OR)" vertex="1">
+          <mxGeometry height="60" width="60" x="384" y="1710" as="geometry" />
+        </mxCell>
+        <UserObject label="Information Set: Feedback received" tooltip="The customer feedback is received." id="QlyQ-q8FOqUJIYrdyrys-113">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="324" y="1860" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-114" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-115" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-120" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-107" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="QlyQ-q8FOqUJIYrdyrys-108" value="Output">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1250" as="sourcePoint" />
+            <mxPoint x="640" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-122" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-121" parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#e8f5e9;strokeColor=#2e7d32;" value="Assumption: Everything is Clear" vertex="1">
+          <mxGeometry height="50" width="180" x="590" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-124" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-128" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-103" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="QlyQ-q8FOqUJIYrdyrys-105" value="Output">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="830" as="sourcePoint" />
+            <mxPoint x="690" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-132" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-133" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-97" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="QlyQ-q8FOqUJIYrdyrys-98" value="Input">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="sourcePoint" />
+            <mxPoint x="580" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-134" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-98" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="QlyQ-q8FOqUJIYrdyrys-99" value="Output">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Information Set: Shipping Confirmation" tooltip="The final document proving that the goods have been sent." id="QlyQ-q8FOqUJIYrdyrys-135">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="150" y="880" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-138" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="QlyQ-q8FOqUJIYrdyrys-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

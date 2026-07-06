@@ -1,0 +1,805 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Technical Components and Requirements> : <4EM 2.7>
+VERSION <>
+TYPE <Technical Components and Requirements Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Easy Handling Nonfunctional> : <IS Requirement>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:2.6cm y:9.7cm w:5.3cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Functional"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Good instruction documents> : <IS Requirement>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:2.6cm y:14.7cm w:5.3cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Functional"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:9.4cm y:12.2cm w:1.6cm h:1.6cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Cash Register> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:7.1cm y:18.7cm w:6.1cm h:1.6cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Scan and Go System> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:15.1cm y:18.9cm w:6.1cm h:1.6cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:12.4cm y:15.7cm w:3.4cm h:1.3cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Computer> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:12.4cm y:12.2cm w:6.1cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:12.4cm y:8.8cm w:3.4cm h:1.3cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Order Planning> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:7.0cm y:5.9cm w:6.1cm h:1.6cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Workforce Scheduling> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:15.0cm y:5.9cm w:6.1cm h:1.6cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <ERP System> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.6cm y:14.1cm w:6.1cm h:1.6cm index:11"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <OR> : <OR>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.3cm y:2.6cm w:1.6cm h:1.6cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Easy-to-learn process> : <IS Requirement>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:9.0cm y:0.3cm w:5.3cm h:1.6cm index:13"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Functional"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Easy Process> : <IS Requirement>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:0.8cm y:0.5cm w:5.3cm h:1.6cm index:14"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Functional"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <New Cloud Database> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:29.4cm y:14.1cm w:6.1cm h:1.6cm index:15"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The modern database system being implemented."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Low Latency Response> : <IS Requirement>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:24.9cm y:22.0cm w:5.3cm h:1.6cm index:16"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A specific demand that data must load under 50ms."
+
+	ATTRIBUTE <Type>
+	VALUE "Functional"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <AND> : <AND>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:37.9cm y:14.1cm w:1.6cm h:1.6cm index:17"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Cache Server> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:35.4cm y:9.0cm w:6.1cm h:1.6cm index:18"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A component that stores frequent data for quick access."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Old Network Switch> : <IS Technical Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:35.5cm y:18.7cm w:6.1cm h:1.6cm index:19"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Legacy hardware that is still in the server room."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+RELATION <4EM_Relation>
+	FROM <Easy Handling Nonfunctional> : <IS Requirement>
+	TO <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AND/OR> : <AND/OR>
+	TO <Computer> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-PartOF-1> : <Total-PartOF>
+	TO <Computer> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Computer> : <IS Technical Component>
+	TO <ERP System> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE "supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Partial-PartOF-1> : <Partial-PartOF>
+	TO <Computer> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <OR> : <OR>
+	TO <Order Planning> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Easy Process> : <IS Requirement>
+	TO <OR> : <OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Easy-to-learn process> : <IS Requirement>
+	TO <OR> : <OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Order Planning> : <IS Technical Component>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Workforce Scheduling> : <IS Technical Component>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Good instruction documents> : <IS Requirement>
+	TO <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Cash Register> : <IS Technical Component>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:12"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Scan and Go System> : <IS Technical Component>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:13"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <New Cloud Database> : <IS Technical Component>
+	TO <ERP System> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:14"
+
+	ATTRIBUTE <Type>
+	VALUE "supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <New Cloud Database> : <IS Technical Component>
+	TO <Low Latency Response> : <IS Requirement>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:15"
+
+	ATTRIBUTE <Type>
+	VALUE "has requirement"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AND> : <AND>
+	TO <New Cloud Database> : <IS Technical Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:16"
+
+	ATTRIBUTE <Type>
+	VALUE "supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Old Network Switch> : <IS Technical Component>
+	TO <AND> : <AND>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:17"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Cache Server> : <IS Technical Component>
+	TO <AND> : <AND>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:18"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="1250" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Rule: Rule for Check availability" tooltip="The availability check is to be conducted by the determined individual of the dev team" id="QlyQ-q8FOqUJIYrdyrys-265">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="70" y="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Rule for send Invoice" tooltip="Send Inovice is to be conducted by the determined lead developer" id="QlyQ-q8FOqUJIYrdyrys-266">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="70" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-293" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-267" parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#fce4ec;strokeColor=#c2185b;" value="Comment: This is an important rule" vertex="1">
+          <mxGeometry height="50" width="180" x="70" y="560" as="geometry" />
+        </mxCell>
+        <UserObject label="Rule: contact Customer with consent" tooltip="Only customers who have given their consent are allowed to be contacted regarding feedback." id="QlyQ-q8FOqUJIYrdyrys-268">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="360" y="555" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-292" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-269" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="OR" vertex="1">
+          <mxGeometry height="60" width="60" x="420" y="730" as="geometry" />
+        </mxCell>
+        <UserObject label="Rule: Sent email for customers with consent" tooltip="Only customer who have given their consent are allowed to be contacted via email." id="QlyQ-q8FOqUJIYrdyrys-270">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="210" y="950" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Customer call contacted via phone." tooltip="Only customer who have given their consent are allowed to be contacted via phone." id="QlyQ-q8FOqUJIYrdyrys-271">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="480" y="950" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Consider the Retention Period" tooltip="The retention period for archiving the order must be considered." id="QlyQ-q8FOqUJIYrdyrys-272">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="926" y="601" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Consider the company&#39;s internal retention period" tooltip="The company&#39;s internal retention perio needs to be considered for every order." id="QlyQ-q8FOqUJIYrdyrys-274">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="786" y="977" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Consider the statutory  Retention Period" tooltip="The statutory retention perio needs to be considered for some orders." id="QlyQ-q8FOqUJIYrdyrys-275">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="1056" y="977" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-289" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-272">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-276" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="AND/OR" vertex="1">
+          <mxGeometry height="60" width="60" x="986" y="776" as="geometry" />
+        </mxCell>
+        <UserObject label="Rule: Shipping policies must be followed" tooltip="Shipping policies must be followed" id="QlyQ-q8FOqUJIYrdyrys-277">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="930" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Product must be packed in accordance with a specific standard" tooltip="The Product must be packed in accordance with a specific standard" id="QlyQ-q8FOqUJIYrdyrys-279">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="788" y="406" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule: Check for Restricted Rule&#xa;" tooltip="Shipping must be checked for restricted goods." id="QlyQ-q8FOqUJIYrdyrys-280">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="1058" y="406" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-285" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-277">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-281" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="AND" vertex="1">
+          <mxGeometry height="60" width="60" x="986" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-286" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QlyQ-q8FOqUJIYrdyrys-277">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-282" parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#e8f5e9;strokeColor=#2e7d32;" value="Assumption: The responsible roles are aware of the policies" vertex="1">
+          <mxGeometry height="50" width="180" x="1220" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-283" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-284" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-287" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-288" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-290" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-291" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

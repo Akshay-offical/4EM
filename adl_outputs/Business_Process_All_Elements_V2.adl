@@ -1,0 +1,732 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Business Process> : <4EM 2.7>
+VERSION <>
+TYPE <Business Process Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Purchase Order> : <Information Set>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.7cm y:4.2cm w:4.8cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The initial document received from the customer containing items."
+
+	ATTRIBUTE <Type>
+	VALUE "Information Set"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Check Availability> : <Process>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.7cm y:8.2cm w:4.8cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Internal activity to check if items are in stock."
+
+	ATTRIBUTE <Decomposed Process>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Approved Item List> : <Information Set>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.7cm y:12.2cm w:4.8cm h:1.6cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A list of items that are confirmed and ready for shipping."
+
+	ATTRIBUTE <Type>
+	VALUE "Information Set"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Split (AND)-1> : <Split (AND)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.3cm y:15.6cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <The company is very happy with the external partner> : <Comment>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.1cm y:15.9cm w:4.8cm h:1.3cm index:5"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <Logistics Delivery> : <External Process>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:4.0cm y:19.3cm w:4.8cm h:1.6cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The shipping process handled by an external courier service."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Send Invoice> : <Process>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:13.5cm y:19.3cm w:4.8cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Internal activity to bill the customer."
+
+	ATTRIBUTE <Decomposed Process>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <invoice> : <Information Set>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:13.5cm y:23.3cm w:4.8cm h:1.6cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The billing document sent to the customer."
+
+	ATTRIBUTE <Type>
+	VALUE "Information Set"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Join (AND)-1> : <Join (AND)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.2cm y:26.5cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <Archieve Order> : <Process>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.6cm y:30.7cm w:4.8cm h:1.6cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Final activity to close the case."
+
+	ATTRIBUTE <Decomposed Process>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Order Archieved> : <Information Set>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.6cm y:34.4cm w:4.8cm h:1.6cm index:11"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Information Set"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Split (OR)-1> : <Split (OR)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.2cm y:38.1cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <Send Email to ask for customer Feedback> : <Process>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:4.0cm y:41.8cm w:4.8cm h:1.6cm index:13"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "An email is sent to ask for feedback regarding the order process."
+
+	ATTRIBUTE <Decomposed Process>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Call Customer to ask for feedback> : <Process>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:13.5cm y:41.8cm w:4.8cm h:1.6cm index:14"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The customer is called to ask for feedback regarding the order process."
+
+	ATTRIBUTE <Decomposed Process>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Join (OR)-1> : <Join (OR)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.2cm y:45.2cm index:15"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <Feedback received> : <Information Set>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.6cm y:49.2cm w:4.8cm h:1.6cm index:16"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The customer feedback is received."
+
+	ATTRIBUTE <Type>
+	VALUE "Information Set"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Everything is Clear> : <Assumption>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:15.6cm y:30.8cm w:4.8cm h:1.3cm index:17"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <Shipping Confirmation> : <Information Set>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:4.0cm y:23.3cm w:4.8cm h:1.6cm index:18"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The final document proving that the goods have been sent."
+
+	ATTRIBUTE <Type>
+	VALUE "Information Set"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+RELATION <4EM_Relation>
+	FROM <Split (AND)-1> : <Split (AND)>
+	TO <Logistics Delivery> : <External Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Split (AND)-1> : <Split (AND)>
+	TO <Send Invoice> : <Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <The company is very happy with the external partner> : <Comment>
+	TO <Logistics Delivery> : <External Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Logistics Delivery> : <External Process>
+	TO <Shipping Confirmation> : <Information Set>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE "Output"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Join (AND)-1> : <Join (AND)>
+	TO <Archieve Order> : <Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Order Archieved> : <Information Set>
+	TO <Split (OR)-1> : <Split (OR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Split (OR)-1> : <Split (OR)>
+	TO <Send Email to ask for customer Feedback> : <Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Split (OR)-1> : <Split (OR)>
+	TO <Call Customer to ask for feedback> : <Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Join (OR)-1> : <Join (OR)>
+	TO <Feedback received> : <Information Set>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Send Email to ask for customer Feedback> : <Process>
+	TO <Join (OR)-1> : <Join (OR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Call Customer to ask for feedback> : <Process>
+	TO <Join (OR)-1> : <Join (OR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Archieve Order> : <Process>
+	TO <Order Archieved> : <Information Set>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:12"
+
+	ATTRIBUTE <Type>
+	VALUE "Output"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Everything is Clear> : <Assumption>
+	TO <Archieve Order> : <Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:13"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <invoice> : <Information Set>
+	TO <Join (AND)-1> : <Join (AND)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:14"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Send Invoice> : <Process>
+	TO <invoice> : <Information Set>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:15"
+
+	ATTRIBUTE <Type>
+	VALUE "Output"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Approved Item List> : <Information Set>
+	TO <Split (AND)-1> : <Split (AND)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:16"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Purchase Order> : <Information Set>
+	TO <Check Availability> : <Process>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:17"
+
+	ATTRIBUTE <Type>
+	VALUE "Input"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Check Availability> : <Process>
+	TO <Approved Item List> : <Information Set>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:18"
+
+	ATTRIBUTE <Type>
+	VALUE "Output"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Shipping Confirmation> : <Information Set>
+	TO <Join (AND)-1> : <Join (AND)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:19"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

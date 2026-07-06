@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="2827" dy="2108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-44" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Organizational Unit: Company" vertex="1">
+          <mxGeometry height="60" width="210" x="451" y="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Organizational Unit: IT Department" tooltip="The main department handling technology." id="QlyQ-q8FOqUJIYrdyrys-45">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="210" x="180" y="270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-95" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-45" value="part of">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Organizational Unit: Dev Team" tooltip="A sub-team focusing on software development." id="QlyQ-q8FOqUJIYrdyrys-46">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="210" x="510" y="270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-47" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Organizational Unit: Management" vertex="1">
+          <mxGeometry height="60" width="210" x="1020" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-96" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-48" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#b3ccff;strokeColor=#4169E1;" value="Total-PartOF" vertex="1">
+          <mxGeometry height="50" width="130" x="490" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-50" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-51" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-52" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-54" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: Information System" vertex="1">
+          <mxGeometry height="60" width="180" x="-115" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-57" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-55" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d0b3ff;strokeColor=#7B68EE;" value="Total-ISA" vertex="1">
+          <mxGeometry height="50" width="120" x="-85" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-94" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-56" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#b3ccff;strokeColor=#4169E1;" value="Total-PartOF" vertex="1">
+          <mxGeometry height="50" width="130" x="1063" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-58" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-45" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="QlyQ-q8FOqUJIYrdyrys-54" value="responsible for">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="160" as="sourcePoint" />
+            <mxPoint x="250" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-59" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: ERP System" vertex="1">
+          <mxGeometry height="60" width="180" x="-320" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-60" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: Manufacturing System" vertex="1">
+          <mxGeometry height="60" width="180" x="70" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-61" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-62" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-68" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-63" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#f0e6ff;strokeColor=#7B68EE;" value="Partial-ISA" vertex="1">
+          <mxGeometry height="50" width="120" x="-290" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-64" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: Inventory Control System" vertex="1">
+          <mxGeometry height="60" width="180" x="-470" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-65" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: File System" vertex="1">
+          <mxGeometry height="60" width="180" x="-180" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-66" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-67" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-70" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-69" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e6f0ff;strokeColor=#4169E1;" value="Partial-PartOF" vertex="1">
+          <mxGeometry height="51" width="130" x="95" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-71" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: Machining Tools" vertex="1">
+          <mxGeometry height="60" width="180" x="35" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-72" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Resource: Measuring instruments" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-73" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-75" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-77" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-76" parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#e8f5e9;strokeColor=#2e7d32;" value="Assumption: This covers all measuring instruments required" vertex="1">
+          <mxGeometry height="70" width="180" x="270" y="1030" as="geometry" />
+        </mxCell>
+        <UserObject label="Resource: Source Code Server" tooltip="The server where code is stored (Git)." id="QlyQ-q8FOqUJIYrdyrys-78">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1">
+            <mxGeometry height="60" width="180" x="240" y="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-79" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-78" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#666666;fontColor=#666666;" target="QlyQ-q8FOqUJIYrdyrys-45" value="belongs to">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="470" as="sourcePoint" />
+            <mxPoint x="470" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Role: Lead Developer" tooltip="The person in charge of coding and architecture." id="QlyQ-q8FOqUJIYrdyrys-80">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="525" y="500" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-81" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-80" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="QlyQ-q8FOqUJIYrdyrys-46" value="works in">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="710" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-82" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-80" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#7A4100;fontColor=#7A4100;" target="QlyQ-q8FOqUJIYrdyrys-78" value="maintains">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="650" as="sourcePoint" />
+            <mxPoint x="640" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Resource: Backup Drive" tooltip="A storage device for safety copies." id="QlyQ-q8FOqUJIYrdyrys-83">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1">
+            <mxGeometry height="60" width="180" x="525" y="860" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-84" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-78" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#9673a6;fontColor=#9673a6;" target="QlyQ-q8FOqUJIYrdyrys-83" value="interacts with">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="780" as="sourcePoint" />
+            <mxPoint x="600" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Individual: Alice Smith" tooltip="A specific employee working in the company." id="QlyQ-q8FOqUJIYrdyrys-85">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="780" y="500" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-86" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-85" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="QlyQ-q8FOqUJIYrdyrys-80" value="plays">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="630" as="sourcePoint" />
+            <mxPoint x="870" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-88" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-87" parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#fce4ec;strokeColor=#c2185b;" value="Comment: Alice is happy with her job" vertex="1">
+          <mxGeometry height="50" width="180" x="770" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-89" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Role: CEO" vertex="1">
+          <mxGeometry height="60" width="180" x="980" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-90" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Role: CFO" vertex="1">
+          <mxGeometry height="60" width="180" x="1241" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-91" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-93" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

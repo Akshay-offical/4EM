@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="1250" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Goal: Maximize Service Quality" tooltip="Provide the best possible support to customers." id="QlyQ-q8FOqUJIYrdyrys-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="360" y="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="KPI: Customer Satisfaction Score" tooltip="840" id="QlyQ-q8FOqUJIYrdyrys-2">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1">
+            <mxGeometry height="60" width="180" x="110" y="230" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Problem: High Employee Turnover" tooltip="The issue that staff leaves the company too frequently." id="QlyQ-q8FOqUJIYrdyrys-3">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="60" width="180" x="250" y="340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Goal: Minimize Operational Cost" tooltip="Keep the running costs as low as possible." id="QlyQ-q8FOqUJIYrdyrys-4">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="440" y="460" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Goal: Hire more Support Staff" tooltip="An operational goal to increase the headcount of the support team." id="QlyQ-q8FOqUJIYrdyrys-5">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="600" y="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-6" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="AND" vertex="1">
+          <mxGeometry height="60" width="60" x="700" y="160" as="geometry" />
+        </mxCell>
+        <UserObject label="Cause: Low Salary levels" tooltip="The root reason why employees are leaving." id="QlyQ-q8FOqUJIYrdyrys-7">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1">
+            <mxGeometry height="60" width="180" x="190" y="670" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-13" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Comment: Competition pay more" tooltip="The assumption here is that competition pays more." id="QlyQ-q8FOqUJIYrdyrys-8">
+          <mxCell parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#fce4ec;strokeColor=#c2185b;" vertex="1">
+            <mxGeometry height="50" width="180" x="197" y="850" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Opportunity: AI Chatbot integration" tooltip="A chance to use technology to automate answers." id="QlyQ-q8FOqUJIYrdyrys-9">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="180" x="440" y="670" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cause: New Ai Technology" tooltip="The external factor that enables the chatbot integration." id="QlyQ-q8FOqUJIYrdyrys-10">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1">
+            <mxGeometry height="60" width="180" x="440" y="840" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Constraint: Annual Budget limit" tooltip="A strict financial restriction that cannot be exceeded." id="QlyQ-q8FOqUJIYrdyrys-11">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+            <mxGeometry height="60" width="180" x="860" y="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Goal: Improve Skills of service Staff" tooltip="Enhance the competencies of service staff to provide better customer service." id="QlyQ-q8FOqUJIYrdyrys-12">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="850" y="190" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-14" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-10" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#9673a6;fontColor=#9673a6;" target="QlyQ-q8FOqUJIYrdyrys-9" value="Causes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="760" as="sourcePoint" />
+            <mxPoint x="630" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-15" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-9" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="QlyQ-q8FOqUJIYrdyrys-4" value="Supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="600" as="sourcePoint" />
+            <mxPoint x="760" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-16" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-7" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#9673a6;fontColor=#9673a6;" target="QlyQ-q8FOqUJIYrdyrys-3" value="Causes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="560" as="sourcePoint" />
+            <mxPoint x="330" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-18" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-1" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="QlyQ-q8FOqUJIYrdyrys-2" value="measured by">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="70" as="sourcePoint" />
+            <mxPoint x="280" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-19" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-3" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="QlyQ-q8FOqUJIYrdyrys-1" value="Hinders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-20" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-1" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fontStyle=1;strokeColor=#d79b00;fontColor=#d79b00;" target="QlyQ-q8FOqUJIYrdyrys-4" value="Contradicts">
+          <mxGeometry relative="1" x="0.0027" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="220" as="sourcePoint" />
+            <mxPoint x="710" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-21" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-4" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="QlyQ-q8FOqUJIYrdyrys-5" value="Hinders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="410" as="sourcePoint" />
+            <mxPoint x="780" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-22" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-23" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-6" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;exitPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-1" value="Supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="70" as="sourcePoint" />
+            <mxPoint x="750" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-24" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-25" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-11" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="QlyQ-q8FOqUJIYrdyrys-5" value="Hinders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="430" as="sourcePoint" />
+            <mxPoint x="960" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-28" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=classicThin;endFill=1;startArrow=classic;startFill=1;" target="QlyQ-q8FOqUJIYrdyrys-4" value="Contradicts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Goal: Build a brand" tooltip="The goal is to build a brand" id="QlyQ-q8FOqUJIYrdyrys-26">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="900" y="460" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-27" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-11" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;" target="QlyQ-q8FOqUJIYrdyrys-26" value="Hinders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="410" as="sourcePoint" />
+            <mxPoint x="950" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-30" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="OR" vertex="1">
+          <mxGeometry height="60" width="60" x="960" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-32" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QlyQ-q8FOqUJIYrdyrys-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Comment: CEO isn&#39;t a fan of social media" tooltip="The CEO is not a fan of social media." id="QlyQ-q8FOqUJIYrdyrys-31">
+          <mxCell parent="1" style="shape=hexagon;whiteSpace=wrap;html=0;fontStyle=1;fontSize=10;perimeter=hexagonPerimeter2;fillColor=#fce4ec;strokeColor=#c2185b;" vertex="1">
+            <mxGeometry height="50" width="171" x="1160" y="465" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-33" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-30" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;exitPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-26" value="Supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="580" as="sourcePoint" />
+            <mxPoint x="1180" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Goal: Strengthen the Brand Through Strategic Partnerships" tooltip="Establish strategic partnerships to enhance brand recognition and reputation." id="QlyQ-q8FOqUJIYrdyrys-34">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="770" y="710" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Goal: Establish a Brand Through a Social Media Presence" tooltip="Use social media to increase brand visibility, recognition, and customer engagement." id="QlyQ-q8FOqUJIYrdyrys-35">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1">
+            <mxGeometry height="60" width="180" x="1040" y="710" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-36" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-37" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-38" parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="AND/OR" vertex="1">
+          <mxGeometry height="60" width="60" x="1100" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-39" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-38" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;exitPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-35" value="Supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="820" as="sourcePoint" />
+            <mxPoint x="1290" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-40" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Goal:  Create Instagram account" vertex="1">
+          <mxGeometry height="60" width="180" x="900" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-41" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Goal: Create facebook account" vertex="1">
+          <mxGeometry height="60" width="180" x="1190" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-42" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlyQ-q8FOqUJIYrdyrys-43" edge="1" parent="1" source="QlyQ-q8FOqUJIYrdyrys-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QlyQ-q8FOqUJIYrdyrys-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
