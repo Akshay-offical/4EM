@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="1000" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Purchase Order" em_type="Information Set" tooltip="The initial document received from the customer containing items." id="JpsmF5zWRw1PJ5W2zksf-1">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="323" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Check Availability" em_type="Process" tooltip="Internal activity to check if items are in stock." id="JpsmF5zWRw1PJ5W2zksf-2">
+          <mxCell parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="323" y="131" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-21" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JpsmF5zWRw1PJ5W2zksf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Approved Item List" em_type="Information Set" tooltip="A list of items that are confirmed and ready for shipping." id="JpsmF5zWRw1PJ5W2zksf-3">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="323" y="250" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-22" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="JpsmF5zWRw1PJ5W2zksf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-23" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Split (AND)" em_type="Split (AND)" id="JpsmF5zWRw1PJ5W2zksf-4">
+          <mxCell parent="1" style="shape=ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="383" y="371" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Logistics Delivery" em_type="External Process" tooltip="The shipping process handled by an external courier service." id="JpsmF5zWRw1PJ5W2zksf-5">
+          <mxCell parent="1" style="rounded=0;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="143" y="508" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send Invoice" em_type="Process" tooltip="Internal activity to bill the customer." id="JpsmF5zWRw1PJ5W2zksf-6">
+          <mxCell parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="520" y="513" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-26" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Shipping Confirmation" em_type="Information Set" tooltip="The final document proving that the goods have been sent." id="JpsmF5zWRw1PJ5W2zksf-7">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="140" y="658" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-27" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Invoice" em_type="Information Set" tooltip="The billing document sent to the customer." id="JpsmF5zWRw1PJ5W2zksf-8">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="520" y="658" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-28" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Join (AND)" em_type="Join (AND)" id="JpsmF5zWRw1PJ5W2zksf-9">
+          <mxCell parent="1" style="shape=ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="383" y="778" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-30" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Archive Order" em_type="Process" tooltip="Final activity to close the case." id="JpsmF5zWRw1PJ5W2zksf-10">
+          <mxCell parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="324" y="888" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-29" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Everything is clear" em_type="Assumption" id="JpsmF5zWRw1PJ5W2zksf-11">
+          <mxCell parent="1" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366FF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="580" y="891" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-31" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Order archived" em_type="Information Set" tooltip="The order is archived." id="JpsmF5zWRw1PJ5W2zksf-12">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="323" y="988" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-32" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-33" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="JpsmF5zWRw1PJ5W2zksf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Split (OR)" em_type="Split (OR)" id="JpsmF5zWRw1PJ5W2zksf-13">
+          <mxCell parent="1" style="shape=ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="384" y="1090" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-34" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Send email to ask for customer feedback" em_type="Process" tooltip="An email is sent to ask for feedback regarding the order process." id="JpsmF5zWRw1PJ5W2zksf-14">
+          <mxCell parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="140" y="1210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-35" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Call customer to ask for feedback" em_type="Process" tooltip="The customer is called to ask for feedback regarding the order process." id="JpsmF5zWRw1PJ5W2zksf-15">
+          <mxCell parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="520" y="1210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-36" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Join (OR)" em_type="Join (OR)" id="JpsmF5zWRw1PJ5W2zksf-16">
+          <mxCell parent="1" style="shape=ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="384" y="1340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Feedback received" em_type="Information Set" tooltip="The customer feedback is received." id="JpsmF5zWRw1PJ5W2zksf-17">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="324" y="1540" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-37" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="The company is very happy with the external partner" em_type="Comment" id="JpsmF5zWRw1PJ5W2zksf-18">
+          <mxCell parent="1" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366FF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="20" y="376" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-19" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-1" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="JpsmF5zWRw1PJ5W2zksf-2" value="Input">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="110" as="sourcePoint" />
+            <mxPoint x="550" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-20" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="JpsmF5zWRw1PJ5W2zksf-3" value="Output">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-24" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-5" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="JpsmF5zWRw1PJ5W2zksf-7" value="Output">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="610" as="sourcePoint" />
+            <mxPoint x="400" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-25" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-6" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="JpsmF5zWRw1PJ5W2zksf-8" value="Output">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="610" as="sourcePoint" />
+            <mxPoint x="750" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

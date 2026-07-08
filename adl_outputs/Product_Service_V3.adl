@@ -1,0 +1,724 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Product-Service> : <4EM 2.7>
+VERSION <>
+TYPE <Product-Service-Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Smart TV App> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.9cm y:6.9cm w:4.8cm h:1.5cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <Website> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.9cm y:10.8cm w:4.8cm h:1.5cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <PartOF (XOR)-1> : <PartOF (XOR)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:8.6cm y:9.0cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <Video Streaming Service> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:13.0cm y:9.0cm w:4.8cm h:1.5cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE "The core service allowing users to watch content online."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:14.6cm y:5.3cm w:1.5cm h:1.5cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Contents> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:9.0cm y:1.9cm w:4.8cm h:1.5cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <Recommendations> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:16.7cm y:1.9cm w:4.8cm h:1.5cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <PartOF (AND)-1> : <PartOF (AND)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:14.5cm y:11.9cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <High Speed Server> : <Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.6cm y:14.6cm w:4.5cm h:1.1cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The physical hardware required to stream data fast."
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+
+INSTANCE <Billing Module> : <Component>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:16.1cm y:14.6cm w:4.5cm h:1.1cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The logical part responsible for processing subscriptions."
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+
+INSTANCE <4k Live Sports> : <Feature>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:13.8cm y:17.7cm w:3.8cm h:1.5cm index:11"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A specific functionality to watch sports in high definition."
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <Entertainment Bundle> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:17.7cm y:11.6cm w:4.8cm h:1.5cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE "A larger package that includes video, music, and games."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <Classic> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.6cm y:17.5cm w:4.8cm h:1.5cm index:13"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <Premium> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.4cm y:15.5cm w:4.8cm h:1.5cm index:14"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <PartOF (OR)-1> : <PartOF (OR)>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:22.5cm y:14.7cm index:15"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+
+INSTANCE <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.9cm y:11.6cm w:1.5cm h:1.5cm index:16"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Movies> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:28.1cm y:8.5cm w:4.8cm h:1.5cm index:17"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <TV Shows> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:29.6cm y:13.0cm w:4.8cm h:1.5cm index:18"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Specification>
+	VALUE "Service"
+
+	ATTRIBUTE <Attribute>
+	VALUE
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+
+INSTANCE <There is a nice product model> : <Assumption>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.1cm y:0.8cm w:4.8cm h:1.3cm index:19"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <There is no better product model> : <Comment>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:28.1cm y:0.3cm w:4.8cm h:1.3cm index:20"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+RELATION <4EM_Relation>
+	FROM <Contents> : <Unspecific/Product/Service>
+	TO <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Recommendations> : <Unspecific/Product/Service>
+	TO <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Partial-ISA-1> : <Partial-ISA>
+	TO <Video Streaming Service> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Smart TV App> : <Unspecific/Product/Service>
+	TO <PartOF (XOR)-1> : <PartOF (XOR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Website> : <Unspecific/Product/Service>
+	TO <PartOF (XOR)-1> : <PartOF (XOR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <PartOF (XOR)-1> : <PartOF (XOR)>
+	TO <Video Streaming Service> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <PartOF (AND)-1> : <PartOF (AND)>
+	TO <Video Streaming Service> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <4k Live Sports> : <Feature>
+	TO <High Speed Server> : <Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE "requires"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <4k Live Sports> : <Feature>
+	TO <Billing Module> : <Component>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE "requires"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <High Speed Server> : <Component>
+	TO <PartOF (AND)-1> : <PartOF (AND)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Billing Module> : <Component>
+	TO <PartOF (AND)-1> : <PartOF (AND)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <PartOF (AND)-1> : <PartOF (AND)>
+	TO <Entertainment Bundle> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:12"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Classic> : <Unspecific/Product/Service>
+	TO <PartOF (OR)-1> : <PartOF (OR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:13"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Premium> : <Unspecific/Product/Service>
+	TO <PartOF (OR)-1> : <PartOF (OR)>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:14"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <PartOF (OR)-1> : <PartOF (OR)>
+	TO <Entertainment Bundle> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:15"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Movies> : <Unspecific/Product/Service>
+	TO <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:16"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <TV Shows> : <Unspecific/Product/Service>
+	TO <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:17"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-ISA-1> : <Total-ISA>
+	TO <Entertainment Bundle> : <Unspecific/Product/Service>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:18"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

@@ -1,0 +1,1022 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Actors and Resources> : <4EM 2.7>
+VERSION <>
+TYPE <Actors and Resources Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Inventory Control System> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.1cm y:23.3cm w:4.8cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <File System> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:7.7cm y:23.3cm w:4.8cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:5.8cm y:20.3cm w:1.5cm h:1.5cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <ERP System> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:4.2cm y:16.1cm w:4.8cm h:1.6cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.9cm y:10.6cm w:1.5cm h:1.5cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Information System> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.3cm y:5.8cm w:4.8cm h:1.6cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Machining tools> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:9.5cm y:25.9cm w:4.8cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Measuring instruments> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:15.3cm y:25.9cm w:4.8cm h:1.6cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:14.3cm y:21.8cm w:1.5cm h:1.5cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Manufacturing System> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:12.7cm y:17.4cm w:4.8cm h:1.6cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <This covers all measuring instruments required> : <Assumption>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:15.3cm y:29.9cm w:4.8cm h:1.3cm index:11"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <IT Department> : <Organizational Unit>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:18.5cm y:5.8cm w:5.6cm h:1.6cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The main department handling technology."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Source Code Server> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:18.9cm y:15.8cm w:4.8cm h:1.6cm index:13"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The server where code is stored (Git)."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Backup Drive> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.4cm y:18.5cm w:4.8cm h:1.6cm index:14"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A storage device for safety copies."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Lead Developer> : <Role>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.7cm y:10.8cm w:4.8cm h:1.6cm index:15"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The person in charge of coding and architecture."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Qualification>
+	VALUE ""
+
+	ATTRIBUTE <Number of Employees with this Role>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Dev Team> : <Resource>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:26.7cm y:5.8cm w:4.8cm h:1.6cm index:16"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A sub-team focusing on software development."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Quantity>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Alice Smith> : <Individual>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:32.5cm y:10.8cm w:4.8cm h:1.6cm index:17"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A specific employee working in the company."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Alice is happy with her job> : <Comment>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:32.5cm y:14.5cm w:4.8cm h:1.3cm index:18"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <Management> : <Organizational Unit>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:40.8cm y:5.8cm w:5.6cm h:1.6cm index:19"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Company> : <Organizational Unit>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:32.1cm y:0.3cm w:5.6cm h:1.6cm index:20"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Location>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:34.4cm y:2.9cm w:1.5cm h:1.5cm index:21"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Total-PartOF-2> : <Total-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:42.6cm y:9.1cm w:1.5cm h:1.5cm index:22"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <CEO> : <Role>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:38.9cm y:11.6cm w:4.8cm h:1.6cm index:23"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Qualification>
+	VALUE ""
+
+	ATTRIBUTE <Number of Employees with this Role>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <CFO> : <Role>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:44.0cm y:11.6cm w:4.8cm h:1.6cm index:24"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Qualification>
+	VALUE ""
+
+	ATTRIBUTE <Number of Employees with this Role>
+	VALUE 0
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+RELATION <4EM_Relation>
+	FROM <Inventory Control System> : <Resource>
+	TO <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <File System> : <Resource>
+	TO <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Partial-ISA-1> : <Partial-ISA>
+	TO <ERP System> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <ERP System> : <Resource>
+	TO <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-ISA-1> : <Total-ISA>
+	TO <Information System> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Machining tools> : <Resource>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Measuring instruments> : <Resource>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Partial-PartOF-1> : <Partial-PartOF>
+	TO <Manufacturing System> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Manufacturing System> : <Resource>
+	TO <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <This covers all measuring instruments required> : <Assumption>
+	TO <Measuring instruments> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <IT Department> : <Organizational Unit>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Source Code Server> : <Resource>
+	TO <IT Department> : <Organizational Unit>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:12"
+
+	ATTRIBUTE <Type>
+	VALUE "belongs to"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <IT Department> : <Organizational Unit>
+	TO <Information System> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:13"
+
+	ATTRIBUTE <Type>
+	VALUE "responsible for"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Source Code Server> : <Resource>
+	TO <Backup Drive> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:14"
+
+	ATTRIBUTE <Type>
+	VALUE "interacts with"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Lead Developer> : <Role>
+	TO <Source Code Server> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:15"
+
+	ATTRIBUTE <Type>
+	VALUE "maintains"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Dev Team> : <Resource>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:16"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Dev Team> : <Resource>
+	TO <IT Department> : <Organizational Unit>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:17"
+
+	ATTRIBUTE <Type>
+	VALUE "part of"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Lead Developer> : <Role>
+	TO <Dev Team> : <Resource>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:18"
+
+	ATTRIBUTE <Type>
+	VALUE "works in"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Alice Smith> : <Individual>
+	TO <Lead Developer> : <Role>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:19"
+
+	ATTRIBUTE <Type>
+	VALUE "plays"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Alice is happy with her job> : <Comment>
+	TO <Alice Smith> : <Individual>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:20"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Management> : <Organizational Unit>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:21"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-PartOF-1> : <Total-PartOF>
+	TO <Company> : <Organizational Unit>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:22"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-PartOF-2> : <Total-PartOF>
+	TO <Management> : <Organizational Unit>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:23"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <CEO> : <Role>
+	TO <Total-PartOF-2> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:24"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <CFO> : <Role>
+	TO <Total-PartOF-2> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:25"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"

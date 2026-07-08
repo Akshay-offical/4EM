@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="1111" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Smart TV App" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-84">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="70" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Website" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-85">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="70" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PartOF (XOR)" em_type="PartOF (XOR)" id="JpsmF5zWRw1PJ5W2zksf-86">
+          <mxCell parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="60" width="60" x="324" y="340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Video Streaming Service" em_type="Unspecific/Product/Service" tooltip="The core service allowing users to watch content online." id="JpsmF5zWRw1PJ5W2zksf-87">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="490" y="340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Partial-ISA" em_type="Partial-ISA" id="JpsmF5zWRw1PJ5W2zksf-88">
+          <mxCell parent="1" style="shape=ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="55" x="553" y="200" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-91" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Contents" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-89">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="340" y="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-92" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Recommendations" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-90">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="630" y="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-93" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-94" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-95" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-96" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=17.5;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="PartOF (AND)" em_type="PartOF (AND)" id="JpsmF5zWRw1PJ5W2zksf-97">
+          <mxCell parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+            <mxGeometry height="60" width="60" x="548" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-98" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=100;entryDy=55;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="High Speed Server" em_type="Component" tooltip="The physical hardware required to stream data fast." id="JpsmF5zWRw1PJ5W2zksf-99">
+          <mxCell parent="1" style="shape=mxgraph.flowchart.terminator;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="42" width="170" x="400" y="550" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Billing Module" em_type="Component" tooltip="The logical part responsible for processing subscriptions." id="JpsmF5zWRw1PJ5W2zksf-100">
+          <mxCell parent="1" style="shape=mxgraph.flowchart.terminator;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="42" width="170" x="610" y="550" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="4k Live Sports" em_type="Feature" tooltip="A specific functionality to watch sports in high definition." id="JpsmF5zWRw1PJ5W2zksf-101">
+          <mxCell parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;direction=north;whiteSpace=wrap;html=1;fillColor=#A9CCE3;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="145" x="520" y="670" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-102" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-101" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-99" value="requires">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="630" as="sourcePoint" />
+            <mxPoint x="690" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-103" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-101" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#b85450;fontColor=#b85450;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-100" value="requires">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="757.5" y="691" as="sourcePoint" />
+            <mxPoint x="682.5" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-104" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-105" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Entertainment Bundle" em_type="Unspecific/Product/Service" tooltip="A larger package that includes video, music, and games." id="JpsmF5zWRw1PJ5W2zksf-106">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="670" y="440" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-107" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=17.5;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Classic" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-108">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="780" y="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Premium" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-109">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="960" y="585" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PartOF (OR)" em_type="PartOF (OR)" id="JpsmF5zWRw1PJ5W2zksf-110">
+          <mxCell parent="1" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=0;fontStyle=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="60" x="850" y="555" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-111" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-112" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-113" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=100;entryDy=55;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Total-ISA" em_type="Total-ISA" id="JpsmF5zWRw1PJ5W2zksf-114">
+          <mxCell parent="1" style="shape=ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="55" x="980" y="440" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-118" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Movies" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-115">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="1061" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-117" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="TV Shows" em_type="Unspecific/Product/Service" id="JpsmF5zWRw1PJ5W2zksf-116">
+          <mxCell parent="1" style="shape=cube;whiteSpace=wrap;html=1;fillColor=#CFE8F6;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="180" x="1120" y="490" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-119" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=180;entryDy=20;entryPerimeter=0;" target="JpsmF5zWRw1PJ5W2zksf-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="There is a nice product model" em_type="Assumption" id="JpsmF5zWRw1PJ5W2zksf-120">
+          <mxCell parent="1" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366FF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="40" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="There is no better product model" em_type="Comment" id="JpsmF5zWRw1PJ5W2zksf-121">
+          <mxCell parent="1" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366FF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="1061" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

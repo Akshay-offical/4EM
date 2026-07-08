@@ -1,0 +1,909 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Goal> : <4EM 2.7>
+VERSION <>
+TYPE <Goal Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Maximize Service Quality> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:9.8cm y:0.8cm w:4.8cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Provide the best possible support to customers."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Customer Satisfaction Score> : <KPI>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:3.4cm y:4.2cm w:4.8cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "840"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Target Value>
+	VALUE ""
+
+	ATTRIBUTE <KPI Log>
+	VALUE ""
+
+	ATTRIBUTE <Designation>
+	VALUE ""
+
+
+INSTANCE <High Employee Turnover> : <Problem>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:7.9cm y:6.1cm w:4.8cm h:1.6cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Priority>
+	VALUE "Low"
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Description>
+	VALUE "The issue that staff leaves the company too frequently."
+
+
+INSTANCE <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.6cm y:10.1cm w:4.8cm h:1.6cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Keep the running costs as low as possible."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <AND> : <AND>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:18.0cm y:3.7cm w:1.6cm h:1.6cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Hire More Support Staff> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:15.1cm y:6.9cm w:4.8cm h:1.6cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "An operational goal to increase the headcount of the support team."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Improve skills of service staff> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:22.0cm y:5.3cm w:4.8cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Enhance the competencies of service staff to provide better customer service."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Annual Budget Limit> : <Constraint>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:22.0cm y:7.7cm w:4.8cm h:1.6cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A strict financial restriction that cannot be exceeded."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+
+INSTANCE <Build a brand> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:22.0cm y:10.8cm w:4.8cm h:1.6cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The goal is to build a brand."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <AI Chatbot Integration> : <Opportunity>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.4cm y:15.5cm w:4.8cm h:1.6cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A chance to use technology to automate answers."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <New AI Technology> : <Cause>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.4cm y:19.0cm w:4.8cm h:1.6cm index:11"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The external factor that enables the chatbot integration."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Low Salary Levels> : <Cause>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:4.2cm y:15.9cm w:4.8cm h:1.6cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The root reason why employees are leaving."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Competition pays more> : <Assumption>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:4.2cm y:21.2cm w:4.8cm h:1.3cm index:13"
+
+	ATTRIBUTE <Description>
+	VALUE "The assumption here is that competition pays more."
+
+
+INSTANCE <CEO isn't a fan of social media> : <Comment>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:28.6cm y:11.1cm w:4.8cm h:1.3cm index:14"
+
+	ATTRIBUTE <Description>
+	VALUE "The CEO is not a fan of social media."
+
+
+INSTANCE <OR> : <OR>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:23.5cm y:14.7cm w:1.6cm h:1.6cm index:15"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Establish a Brand Through a Social Media Presence> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.4cm y:16.7cm w:4.8cm h:1.6cm index:16"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Use social media to increase brand visibility, recognition, and customer engagement."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Strengthen the Brand Through Strategic Partnerships> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:18.0cm y:16.7cm w:4.8cm h:1.6cm index:17"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "Establish strategic partnerships to enhance brand recognition and reputation."
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:27.0cm y:20.6cm w:1.6cm h:1.6cm index:18"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Create Instagram account> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.9cm y:23.5cm w:4.8cm h:1.6cm index:19"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Create Facebook account> : <Goal>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:28.6cm y:23.5cm w:4.8cm h:1.6cm index:20"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Criticality>
+	VALUE "Low"
+
+	ATTRIBUTE <Priority>
+	VALUE "Medium"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+RELATION <4EM_Relation>
+	FROM <Maximize Service Quality> : <Goal>
+	TO <Customer Satisfaction Score> : <KPI>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE "measured by"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <High Employee Turnover> : <Problem>
+	TO <Maximize Service Quality> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE "Hinders"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Maximize Service Quality> : <Goal>
+	TO <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE "Contradicts"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Minimize Operational Costs> : <Goal>
+	TO <Maximize Service Quality> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE "Contradicts"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Hire More Support Staff> : <Goal>
+	TO <AND> : <AND>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Minimize Operational Costs> : <Goal>
+	TO <Hire More Support Staff> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE "Hinders"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AND> : <AND>
+	TO <Maximize Service Quality> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE "Supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Improve skills of service staff> : <Goal>
+	TO <AND> : <AND>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Annual Budget Limit> : <Constraint>
+	TO <Hire More Support Staff> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE "Hinders"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Annual Budget Limit> : <Constraint>
+	TO <Build a brand> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE "Hinders"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Minimize Operational Costs> : <Goal>
+	TO <Build a brand> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE "Contradicts"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Build a brand> : <Goal>
+	TO <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:12"
+
+	ATTRIBUTE <Type>
+	VALUE "Contradicts"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <New AI Technology> : <Cause>
+	TO <AI Chatbot Integration> : <Opportunity>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:13"
+
+	ATTRIBUTE <Type>
+	VALUE "Causes"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AI Chatbot Integration> : <Opportunity>
+	TO <Minimize Operational Costs> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:14"
+
+	ATTRIBUTE <Type>
+	VALUE "Supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Low Salary Levels> : <Cause>
+	TO <High Employee Turnover> : <Problem>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:15"
+
+	ATTRIBUTE <Type>
+	VALUE "Causes"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Competition pays more> : <Assumption>
+	TO <Low Salary Levels> : <Cause>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:16"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <OR> : <OR>
+	TO <Build a brand> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:17"
+
+	ATTRIBUTE <Type>
+	VALUE "Supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Establish a Brand Through a Social Media Presence> : <Goal>
+	TO <OR> : <OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:18"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Strengthen the Brand Through Strategic Partnerships> : <Goal>
+	TO <OR> : <OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:19"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AND/OR> : <AND/OR>
+	TO <Establish a Brand Through a Social Media Presence> : <Goal>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:20"
+
+	ATTRIBUTE <Type>
+	VALUE "Supports"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Create Instagram account> : <Goal>
+	TO <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:21"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Create Facebook account> : <Goal>
+	TO <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:22"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

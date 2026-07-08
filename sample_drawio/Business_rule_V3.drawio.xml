@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wPU5kmjzmSUU5H-__lDV">
+    <mxGraphModel dx="769" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Rule for Check Availability" em_type="Rule" tooltip="The availability check is to be conducted by the determined individual of the dev team" id="rwun0PYg3gEAKPRhZH3Y-1">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="233" y="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rule for Send Invoice" em_type="Rule" tooltip="Send Inovice is to be conducted by the determined lead developer" id="rwun0PYg3gEAKPRhZH3Y-2">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="233" y="210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Contact only customers who have given their consent" em_type="Rule" tooltip="Only customers who have given their consent are allowed to be contacted regarding feedback." id="rwun0PYg3gEAKPRhZH3Y-3">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="400" y="350" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-18" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="rwun0PYg3gEAKPRhZH3Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Sent email only to customers who have given their consent" em_type="Rule" tooltip="Only customer who have given their consent are allowed to be contacted via email." id="rwun0PYg3gEAKPRhZH3Y-4">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="240" y="610" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-19" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Call only customer who have given their consent" em_type="Rule" tooltip="Only customer who have given their consent are allowed to be contacted via phone." id="rwun0PYg3gEAKPRhZH3Y-5">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="510" y="610" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-20" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="OR" em_type="OR" id="rwun0PYg3gEAKPRhZH3Y-6">
+          <mxCell parent="1" style="shape=triangle;direction=south;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="450" y="480" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-25" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Product must be packed in accordance with a specific standard" em_type="Rule" tooltip="The product must be packed in accordance with a specific standard." id="rwun0PYg3gEAKPRhZH3Y-7">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="530" y="210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-26" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Check for restricted goods" em_type="Rule" tooltip="Shipping must be checked for restricted goods." id="rwun0PYg3gEAKPRhZH3Y-8">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="790" y="210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Shipping policies must be followed" em_type="Rule" tooltip="Shipping policies must be followed." id="rwun0PYg3gEAKPRhZH3Y-9">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="660" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-27" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="AND" em_type="AND" id="rwun0PYg3gEAKPRhZH3Y-10">
+          <mxCell parent="1" style="shape=triangle;direction=north;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="720" y="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Consider the retention period" em_type="Rule" tooltip="The retention period for archiving the order must be considered." id="rwun0PYg3gEAKPRhZH3Y-11">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="900" y="340" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-15" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Consider the company&#39;s internal retention period" em_type="Rule" tooltip="The company&#39;s internal retention perio needs to be considered for every order." id="rwun0PYg3gEAKPRhZH3Y-12">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="780" y="610" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-16" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="rwun0PYg3gEAKPRhZH3Y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Consider the statutory retention period" em_type="Rule" tooltip="The statutory retention perio needs to be considered for some orders." id="rwun0PYg3gEAKPRhZH3Y-13">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F79646;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="180" x="1040" y="610" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-17" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="AND/OR" em_type="AND/OR" id="rwun0PYg3gEAKPRhZH3Y-14">
+          <mxCell parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="960" y="470" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-22" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="This is an important rule" em_type="Comment" id="rwun0PYg3gEAKPRhZH3Y-21">
+          <mxCell parent="1" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366FF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="110" y="361" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rwun0PYg3gEAKPRhZH3Y-24" edge="1" parent="1" source="rwun0PYg3gEAKPRhZH3Y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="rwun0PYg3gEAKPRhZH3Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="The responsible roles are aware of the policies" em_type="Assumption" id="rwun0PYg3gEAKPRhZH3Y-23">
+          <mxCell parent="1" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366FF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="50" width="180" x="950" y="21" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

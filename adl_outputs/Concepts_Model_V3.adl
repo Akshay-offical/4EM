@@ -1,0 +1,969 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Concepts> : <4EM 2.7>
+VERSION <>
+TYPE <Concepts Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Online Customer> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.3cm y:6.3cm w:4.8cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Anonymous Customer> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:1.3cm y:10.3cm w:4.8cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Customer> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.8cm y:8.5cm w:4.8cm h:1.6cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A registered user of the online shop."
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:7.1cm y:8.6cm w:1.5cm h:1.5cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Order> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.8cm y:12.4cm w:4.8cm h:1.6cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "A completed purchase transaction."
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Product> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.8cm y:16.9cm w:4.8cm h:1.6cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "An item available for sale."
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Standard Product> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.6cm y:25.7cm w:4.8cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Individualized Product> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:14.5cm y:25.7cm w:4.8cm h:1.6cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:12.2cm y:21.2cm w:1.5cm h:1.5cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Shopping Cart> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:19.3cm y:8.5cm w:4.8cm h:1.6cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The temporary collection of items before checkout."
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Instagram> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:21.4cm y:27.0cm w:4.8cm h:1.6cm index:11"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Facebook> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:29.1cm y:25.7cm w:4.8cm h:1.6cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Online Marketing> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.9cm y:20.1cm w:4.8cm h:1.6cm index:13"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:26.5cm y:23.8cm w:1.5cm h:1.5cm index:14"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Offline Marketing> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.6cm y:16.4cm w:4.8cm h:1.6cm index:15"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:29.4cm y:16.4cm w:1.5cm h:1.5cm index:16"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Brochure> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:33.9cm y:11.9cm w:4.8cm h:1.6cm index:17"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Sales Meeting> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:33.9cm y:16.3cm w:4.8cm h:1.6cm index:18"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Poster> : <Concept>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:33.9cm y:20.9cm w:4.8cm h:1.6cm index:19"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Complexity>
+	VALUE 0
+
+	ATTRIBUTE <Execution Time>
+	VALUE 0
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <CEO thinks this is most important> : <Assumption>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:27.9cm y:10.6cm w:4.8cm h:1.3cm index:20"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <Average Order Value> : <KPI>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:19.3cm y:12.4cm w:4.8cm h:1.6cm index:21"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "1200"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Target Value>
+	VALUE ""
+
+	ATTRIBUTE <KPI Log>
+	VALUE ""
+
+	ATTRIBUTE <Designation>
+	VALUE ""
+
+
+INSTANCE <Email Address> : <Attribute>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.8cm y:3.7cm w:4.8cm h:1.6cm index:22"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE "The contact information of the customer."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Data Type>
+	VALUE "String"
+
+	ATTRIBUTE <Value Range>
+	VALUE ""
+
+
+INSTANCE <Important> : <Comment>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:17.7cm y:3.8cm w:4.8cm h:1.3cm index:23"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+RELATION <4EM_Relation>
+	FROM <Online Customer> : <Concept>
+	TO <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Anonymous Customer> : <Concept>
+	TO <Partial-ISA-1> : <Partial-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Standard Product> : <Concept>
+	TO <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Individualized Product> : <Concept>
+	TO <Total-ISA-1> : <Total-ISA>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-ISA-1> : <Total-ISA>
+	TO <Product> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Instagram> : <Concept>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Facebook> : <Concept>
+	TO <Total-PartOF-1> : <Total-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Brochure> : <Concept>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Sales Meeting> : <Concept>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Poster> : <Concept>
+	TO <Partial-PartOF-1> : <Partial-PartOF>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Partial-PartOF-1> : <Partial-PartOF>
+	TO <Offline Marketing> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <CEO thinks this is most important> : <Assumption>
+	TO <Offline Marketing> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:12"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Total-PartOF-1> : <Total-PartOF>
+	TO <Online Marketing> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:13"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Online Marketing> : <Concept>
+	TO <Product> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:14"
+
+	ATTRIBUTE <Type>
+	VALUE "n:m"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Offline Marketing> : <Concept>
+	TO <Product> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:15"
+
+	ATTRIBUTE <Type>
+	VALUE "n:m"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Average Order Value> : <KPI>
+	TO <Order> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:16"
+
+	ATTRIBUTE <Type>
+	VALUE "refers to"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Order> : <Concept>
+	TO <Product> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:17"
+
+	ATTRIBUTE <Type>
+	VALUE "n:m"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Customer> : <Concept>
+	TO <Order> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:18"
+
+	ATTRIBUTE <Type>
+	VALUE "1:n"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Customer> : <Concept>
+	TO <Shopping Cart> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:19"
+
+	ATTRIBUTE <Type>
+	VALUE "1:1"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Customer> : <Concept>
+	TO <Email Address> : <Attribute>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:20"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Important> : <Comment>
+	TO <Email Address> : <Attribute>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:21"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Partial-ISA-1> : <Partial-ISA>
+	TO <Customer> : <Concept>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:22"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

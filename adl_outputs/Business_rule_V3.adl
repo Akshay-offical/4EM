@@ -1,0 +1,590 @@
+VERSION <4.0>
+
+
+BUSINESS PROCESS MODEL <4EM_Business Rule> : <4EM 2.7>
+VERSION <>
+TYPE <Business Rule Model>
+
+	ATTRIBUTE <Author>
+	VALUE "Converter"
+
+	ATTRIBUTE <Model type>
+	VALUE "Current model"
+
+	ATTRIBUTE <Description>
+	VALUE "Converted from draw.io"
+
+
+INSTANCE <Rule for Check Availability> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.2cm y:1.6cm w:4.8cm h:1.6cm index:1"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "The availability check is to be conducted by the determined individual of the dev team"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Rule for Send Invoice> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.2cm y:5.6cm w:4.8cm h:1.6cm index:2"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "Send Inovice is to be conducted by the determined lead developer"
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Contact only customers who have given their consent> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:10.6cm y:9.3cm w:4.8cm h:1.6cm index:3"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "Only customers who have given their consent are allowed to be contacted regarding feedback."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Sent email only to customers who have given their consent> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:6.3cm y:16.1cm w:4.8cm h:1.6cm index:4"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "Only customer who have given their consent are allowed to be contacted via email."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Call only customer who have given their consent> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:13.5cm y:16.1cm w:4.8cm h:1.6cm index:5"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "Only customer who have given their consent are allowed to be contacted via phone."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <OR> : <OR>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:11.9cm y:12.7cm w:1.6cm h:1.6cm index:6"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Product must be packed in accordance with a specific standard> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:14.0cm y:5.6cm w:4.8cm h:1.6cm index:7"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "The product must be packed in accordance with a specific standard."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Check for restricted goods> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.9cm y:5.6cm w:4.8cm h:1.6cm index:8"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "Shipping must be checked for restricted goods."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Shipping policies must be followed> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:17.5cm y:0.3cm w:4.8cm h:1.6cm index:9"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "Shipping policies must be followed."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <AND> : <AND>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:19.0cm y:2.9cm w:1.6cm h:1.6cm index:10"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <Consider the retention period> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:23.8cm y:9.0cm w:4.8cm h:1.6cm index:11"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "The retention period for archiving the order must be considered."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Consider the company's internal retention period> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:20.6cm y:16.1cm w:4.8cm h:1.6cm index:12"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "The company's internal retention perio needs to be considered for every order."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <Consider the statutory retention period> : <Rule>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:27.5cm y:16.1cm w:4.8cm h:1.6cm index:13"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Type>
+	VALUE "Derivation Rule"
+
+	ATTRIBUTE <Description>
+	VALUE "The statutory retention perio needs to be considered for some orders."
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+	ATTRIBUTE <Formal description in advanced language>
+	VALUE ""
+
+
+INSTANCE <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.4cm y:12.4cm w:1.6cm h:1.6cm index:14"
+
+	ATTRIBUTE <External tool coupling>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <Intermodel-Relations>
+	VALUE
+
+	ATTRIBUTE <Decomposition>
+	VALUE ""
+
+	ATTRIBUTE <Defined by>
+	VALUE ""
+
+	ATTRIBUTE <Attributes>
+	VALUE
+
+
+INSTANCE <This is an important rule> : <Comment>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:2.9cm y:9.6cm w:4.8cm h:1.3cm index:15"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+INSTANCE <The responsible roles are aware of the policies> : <Assumption>
+
+	ATTRIBUTE <Position>
+	VALUE "NODE x:25.1cm y:0.6cm w:4.8cm h:1.3cm index:16"
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+
+RELATION <4EM_Relation>
+	FROM <Sent email only to customers who have given their consent> : <Rule>
+	TO <OR> : <OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:1"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Call only customer who have given their consent> : <Rule>
+	TO <OR> : <OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:2"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <OR> : <OR>
+	TO <Contact only customers who have given their consent> : <Rule>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:3"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Product must be packed in accordance with a specific standard> : <Rule>
+	TO <AND> : <AND>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:4"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Check for restricted goods> : <Rule>
+	TO <AND> : <AND>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:5"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AND> : <AND>
+	TO <Shipping policies must be followed> : <Rule>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:6"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Consider the company's internal retention period> : <Rule>
+	TO <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:7"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <Consider the statutory retention period> : <Rule>
+	TO <AND/OR> : <AND/OR>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:8"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <AND/OR> : <AND/OR>
+	TO <Consider the retention period> : <Rule>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:9"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <This is an important rule> : <Comment>
+	TO <Contact only customers who have given their consent> : <Rule>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:10"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+
+
+RELATION <4EM_Relation>
+	FROM <The responsible roles are aware of the policies> : <Assumption>
+	TO <Shipping policies must be followed> : <Rule>
+
+	ATTRIBUTE <Positions>
+	VALUE "EDGE 0 index:11"
+
+	ATTRIBUTE <Type>
+	VALUE ""
+
+	ATTRIBUTE <Description>
+	VALUE ""
+
+	ATTRIBUTE <IR>
+	VALUE "False"
+

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p2i5ZOHr2ZU0nEGUvKzH">
+    <mxGraphModel dx="1111" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-153" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Easy handling" em_type="IS Requirement" id="JpsmF5zWRw1PJ5W2zksf-122">
+          <mxCell parent="1" style="shape=ellipse;dashed=1;dashPattern=6 6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="70" y="420" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-154" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Good instruction documents" em_type="IS Requirement" id="JpsmF5zWRw1PJ5W2zksf-123">
+          <mxCell parent="1" style="shape=ellipse;dashed=1;dashPattern=6 6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="70" y="570" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-155" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="AND/OR" em_type="AND/OR" id="JpsmF5zWRw1PJ5W2zksf-124">
+          <mxCell parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="250" y="490" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Computer" em_type="IS Technical Component" id="JpsmF5zWRw1PJ5W2zksf-125">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="414" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-152" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Partial-PartOF" em_type="Partial-PartOF" id="JpsmF5zWRw1PJ5W2zksf-126">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#808080;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="55" x="447" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-150" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Order Planning" em_type="IS Technical Component" id="JpsmF5zWRw1PJ5W2zksf-127">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="260" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-151" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Workforce Scheduling" em_type="IS Technical Component" id="JpsmF5zWRw1PJ5W2zksf-128">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="580" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-149" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Total-PartOF" em_type="Total-PartOF" id="JpsmF5zWRw1PJ5W2zksf-129">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;strokeWidth=2;" vertex="1">
+            <mxGeometry height="55" width="55" x="447" y="576" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-147" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Cash Register" em_type="IS Technical Component" id="JpsmF5zWRw1PJ5W2zksf-130">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="292" y="720" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-146" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Scan and Go System" em_type="IS Technical Component" id="JpsmF5zWRw1PJ5W2zksf-131">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="540" y="720" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-158" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="OR" em_type="OR" id="JpsmF5zWRw1PJ5W2zksf-132">
+          <mxCell parent="1" style="shape=triangle;direction=south;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="220" y="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-156" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Easy process" em_type="IS Requirement" id="JpsmF5zWRw1PJ5W2zksf-133">
+          <mxCell parent="1" style="shape=ellipse;dashed=1;dashPattern=6 6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="60" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-157" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Easy-to-learn process" em_type="IS Requirement" id="JpsmF5zWRw1PJ5W2zksf-134">
+          <mxCell parent="1" style="shape=ellipse;dashed=1;dashPattern=6 6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="300" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ERP System" em_type="IS Technical Component" id="JpsmF5zWRw1PJ5W2zksf-135">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="600" y="525" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="New Cloud Database" em_type="IS Technical Component" tooltip="The modern database system being implemented." id="JpsmF5zWRw1PJ5W2zksf-136">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="890" y="525" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Low Latency Response" em_type="IS Requirement" tooltip="A specific demand that data must load under 50ms." id="JpsmF5zWRw1PJ5W2zksf-137">
+          <mxCell parent="1" style="shape=ellipse;dashed=1;dashPattern=6 6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="750" y="850" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="AND" em_type="AND" id="JpsmF5zWRw1PJ5W2zksf-138">
+          <mxCell parent="1" style="shape=triangle;direction=north;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="60" x="920" y="380" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-141" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Cache Server" em_type="IS Technical Component" tooltip="A component that stores frequent data for quick access." id="JpsmF5zWRw1PJ5W2zksf-139">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="760" y="230" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-142" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="JpsmF5zWRw1PJ5W2zksf-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Old Network Switch" em_type="IS Technical Component" tooltip="Legacy hardware that is still in the server room." id="JpsmF5zWRw1PJ5W2zksf-140">
+          <mxCell parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1">
+            <mxGeometry height="60" width="120" x="1020" y="230" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-143" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-138" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="JpsmF5zWRw1PJ5W2zksf-136" value="supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="480" as="sourcePoint" />
+            <mxPoint x="1110" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-144" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-136" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;fontColor=#0050ef;" target="JpsmF5zWRw1PJ5W2zksf-137" value="has requirement">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="650" as="sourcePoint" />
+            <mxPoint x="1020" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-145" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-136" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="JpsmF5zWRw1PJ5W2zksf-135" value="supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="600" as="sourcePoint" />
+            <mxPoint x="920" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpsmF5zWRw1PJ5W2zksf-148" edge="1" parent="1" source="JpsmF5zWRw1PJ5W2zksf-125" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1;strokeColor=#82b366;fontColor=#006600;" target="JpsmF5zWRw1PJ5W2zksf-135" value="supports">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="490" as="sourcePoint" />
+            <mxPoint x="710" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
