@@ -205,9 +205,9 @@ TYPE_ATTRS = {
         ("Attributes", None),
         ("Defined by", ""),
     ],
-    "AND": list(COMMON_ATTRS),
-    "OR": list(COMMON_ATTRS),
-    "AND/OR": list(COMMON_ATTRS),
+    "AND": list(FLOW_CONNECTOR_ATTRS),
+    "OR": list(FLOW_CONNECTOR_ATTRS),
+    "AND/OR": list(FLOW_CONNECTOR_ATTRS),
     "Development Action": list(COMMON_ATTRS),
     "Comment": [
         ("Position", "__POSITION__"),
@@ -355,10 +355,10 @@ TYPE_ATTRS = {
     # Defined by, Attributes). They are NOT flow connectors — they have
     # width/height in the Position, unlike Split/Join nodes.
     # They appear in: Actors & Resources, Concepts, Product-Service, Technical.
-    "Partial-ISA":   list(COMMON_ATTRS),
-    "Total-ISA":     list(COMMON_ATTRS),
-    "Partial-PartOF": list(COMMON_ATTRS),
-    "Total-PartOF":  list(COMMON_ATTRS),
+    "Partial-ISA":   list(FLOW_CONNECTOR_ATTRS),
+    "Total-ISA":     list(FLOW_CONNECTOR_ATTRS),
+    "Partial-PartOF": list(FLOW_CONNECTOR_ATTRS),
+    "Total-PartOF":  list(FLOW_CONNECTOR_ATTRS),
 
     # ── Technical Components and Requirements Model ────────────────────
     "IS Technical Component": [
@@ -431,7 +431,7 @@ RELATION_TYPE_ENUM = {
         "", "Input", "Output",
     },
     "Actors and Resources Model": {
-        "", "belongs to", "interacts with", "maintains", "plays", "works in", "responsible for", "part of"
+        "", "belongs to", "interacts with", "maintains", "plays", "works in", "responsible for",
     },
     "Concepts Model": {
         "", "1:1", "1:n", "n:m", "refers to",
@@ -442,9 +442,6 @@ RELATION_TYPE_ENUM = {
     "Technical Components and Requirements Model": {
         "", "has requirement", "hinders", "supports",
     },
-    # Business Rule Model: no confirmed plain-RELATION examples yet in the
-    # sample file (only Intermodel-Relations records were found) - left
-    # unvalidated until confirmed.
 }
 
 
@@ -673,7 +670,7 @@ def parse_drawio(input_path):
             if "edgeLabel" in style or parent in edge_ids:
                 edge_labels[parent] = value
                 continue
-
+                
             em_type = (cell.get("em_type") or "").strip()
 
             # if em_type:
