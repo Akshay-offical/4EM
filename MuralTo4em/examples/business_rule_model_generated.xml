@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ADOXML SYSTEM "adoxml31.dtd">
+<ADOXML version="3.1" date="06.07.2026" time="00:00" database="fouremdb" username="Admin" adoversion="Version 1.8">
+<MODELS>
+<MODEL id="mod.90001" name="Business Rule Model" version="" modeltype="Business Rule Model" libtype="bp" applib="4EM current">
+<MODELATTRIBUTES>
+<ATTRIBUTE name="Author" type="STRING">Admin</ATTRIBUTE>
+<ATTRIBUTE name="Number of objects and relations" type="INTEGER">2</ATTRIBUTE>
+</MODELATTRIBUTES>
+<INSTANCE id="obj.20000" class="Rule" name="Rule for Check Availability">
+<ATTRIBUTE name="Position" type="STRING">NODE x:10.77cm y:-0.11cm w:4.0cm h:4.0cm index:1</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Derivation Rule</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">The availability check is to be conducted by the determined individual of the dev team</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Formal description in advanced language" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.20001" class="Rule" name="Rule for Send Invoice">
+<ATTRIBUTE name="Position" type="STRING">NODE x:10.77cm y:6.81cm w:4.0cm h:4.0cm index:2</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Derivation Rule</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">Send Inovice is to be conducted by the determined lead developer</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Formal description in advanced language" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+</MODEL>
+</MODELS>
+</ADOXML>

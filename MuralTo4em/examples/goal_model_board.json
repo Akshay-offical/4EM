@@ -1,0 +1,1192 @@
+{
+    "value": [
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783775213300,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783774997705,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783774997008",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 0,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777095720,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783774997008",
+            "width": 168,
+            "x": 724.0999755859375,
+            "y": 413.4842275047302,
+            "htmlText": "<html v=\"1\"><div><b><span>High Employee Turnover</span></b></div><div><span>The issue that staff leaves the company too frequently.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#F6A324FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776773588,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776353259,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783776352555",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 1,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777793515,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783776352555",
+            "width": 168,
+            "x": 724.099970703125,
+            "y": -97.24527498722078,
+            "htmlText": "<html v=\"1\"><div><b><span>Maximize Service Quality</span></b></div><div><span>Provide the best possible support to customers.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#AAED92FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776799032,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776354211,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "3-1783776353685",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 2,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783776799033,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=3-1783776353685",
+            "width": 168,
+            "x": 1229.5281286621093,
+            "y": -73.16527452945712,
+            "htmlText": "<html v=\"1\"><div><b><span>Hire More Support Staff</span></b></div><div><span>An operational goal to increase the headcount of the support team.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#AAED92FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776830639,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776354821,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783776354285",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 3,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783776830639,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783776354285",
+            "width": 168,
+            "x": 994.2868420410157,
+            "y": 211.414721198082,
+            "htmlText": "<html v=\"1\"><div><b><span>Minimize Operational Costs</span></b></div><div><span>Keep the running costs as low as possible.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#AAED92FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776744305,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776400855,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783776400326",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 4,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777792002,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783776400326",
+            "width": 168,
+            "x": 222.483581659902,
+            "y": 139.90999412884963,
+            "htmlText": "<html v=\"1\"><div><b><span>Customer Satisfaction Score</span></b></div><div><span>840</span></div></html>",
+            "minLines": 5,
+            "shape": "circle",
+            "style": {
+                "backgroundColor": "#AAED92FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 17,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776889196,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776528549,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783776528016",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 5,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777097270,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783776528016",
+            "width": 168,
+            "x": 1229.5300166772486,
+            "y": 407.46422291602687,
+            "htmlText": "<html v=\"1\"><div><b><span>Annual Budget Limit</span></b></div><div><span>A strict financial restriction that cannot be exceeded.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#FFFFFFFF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776871733,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776609119,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783776608586",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 6,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783776871733,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783776608586",
+            "width": 168,
+            "x": 994.2868393824263,
+            "y": 657.31601393794,
+            "htmlText": "<html v=\"1\"><div><b><span>AI Chatbot Integration</span></b></div><div><span>A chance to use technology to automate answers.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#459C5BFF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776917998,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776662234,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "3-1783776661704",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 7,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783776917998,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=3-1783776661704",
+            "width": 168,
+            "x": 186.97943603515625,
+            "y": 558.9660374164581,
+            "htmlText": "<html v=\"1\"><div><b><span>Low Salary Levels</span></b></div><div><span>The root reason why employees are leaving.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#9EDCFAFF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 18,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783776934226,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776670316,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "3-1783776669766",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 8,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777104516,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=3-1783776669766",
+            "width": 168,
+            "x": 407.7594311523437,
+            "y": 843.0777110004426,
+            "htmlText": "<html v=\"1\"><div><b><span>New AI Technology</span></b></div><div><span>The external factor that enables the chatbot integration.</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#9EDCFAFF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 16,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777793514,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783776951769,
+            "height": 342.73,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783776950320",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 9,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777793515,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783776950320",
+            "width": 1,
+            "x": 808.1,
+            "y": 70.75,
+            "arrowType": "straight",
+            "endRefId": "0-1783774997008",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Hinders",
+                        "width": 89,
+                        "x": -44,
+                        "y": 161
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 342.73
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783776352555",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777793514,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777032398,
+            "height": 237.16,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777031028",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 10,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777793515,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777031028",
+            "width": 333.62,
+            "x": 390.48,
+            "y": -13.25,
+            "arrowType": "straight",
+            "endRefId": "0-1783776352555",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Measured By",
+                        "width": 143,
+                        "x": 106,
+                        "y": 97
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 237.16
+                },
+                {
+                    "x": 333.62,
+                    "y": 0
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783776400326",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777793514,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777058978,
+            "height": 24.08,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777057542",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 11,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777793515,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777057542",
+            "width": 337.43,
+            "x": 892.1,
+            "y": -13.25,
+            "arrowType": "straight",
+            "endRefId": "3-1783776353685",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Supports",
+                        "width": 101,
+                        "x": 94,
+                        "y": -4
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 337.43,
+                    "y": 24.080000000000002
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783776352555",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777793514,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777061843,
+            "height": 224.66,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777060216",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 12,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777793515,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777060216",
+            "width": 186.19,
+            "x": 892.1,
+            "y": -13.25,
+            "arrowType": "straight",
+            "endRefId": "0-1783776352555",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Contradicts",
+                        "width": 126,
+                        "x": 19,
+                        "y": 85
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 186.19,
+                    "y": 224.66
+                },
+                {
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783776354285",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777223827,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777063830,
+            "height": 200.58,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777062097",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 13,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777223828,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777062097",
+            "width": 151.24,
+            "x": 1078.29,
+            "y": 10.83,
+            "arrowType": "straight",
+            "endRefId": "0-1783776354285",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Hinders",
+                        "width": 89,
+                        "x": 29,
+                        "y": 88
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 151.24,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 200.58
+                }
+            ],
+            "stackable": true,
+            "startRefId": "3-1783776353685",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777166238,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777068104,
+            "height": 312.63,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777066353",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 14,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777166239,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777066353",
+            "width": 1,
+            "x": 1313.53,
+            "y": 94.83,
+            "arrowType": "straight",
+            "endRefId": "0-1783776528016",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Hinders",
+                        "width": 89,
+                        "x": -44,
+                        "y": 141
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 312.63
+                }
+            ],
+            "stackable": true,
+            "startRefId": "3-1783776353685",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777174856,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777072561,
+            "height": 277.9,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777070980",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 15,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777174856,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777070980",
+            "width": 1,
+            "x": 1078.29,
+            "y": 379.41,
+            "arrowType": "straight",
+            "endRefId": "0-1783776608586",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Supports",
+                        "width": 101,
+                        "x": -50,
+                        "y": 110
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 277.90000000000003
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783776354285",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777184672,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777077728,
+            "height": 185.76,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777075852",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 16,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777184672,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777075852",
+            "width": 418.53,
+            "x": 575.76,
+            "y": 741.32,
+            "arrowType": "straight",
+            "endRefId": "3-1783776669766",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Causes",
+                        "width": 85,
+                        "x": 174,
+                        "y": 75
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 418.53000000000003,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 185.76
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783776608586",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783777181073,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783777091919,
+            "height": 145.48,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783777090128",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 17,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783777181073,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1781730443708?wid=0-1783777090128",
+            "width": 369.12,
+            "x": 354.98,
+            "y": 497.48,
+            "arrowType": "straight",
+            "endRefId": "3-1783776661704",
+            "label": {
+                "format": {
+                    "bold": false,
+                    "color": "#000000FF",
+                    "fontFamily": "proxima-nova",
+                    "fontSize": 23,
+                    "italic": false,
+                    "textAlign": "center"
+                },
+                "labels": [
+                    {
+                        "height": 29,
+                        "text": "Causes",
+                        "width": 85,
+                        "x": 94,
+                        "y": 77
+                    }
+                ]
+            },
+            "points": [
+                {
+                    "x": 369.12,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 145.48
+                }
+            ],
+            "stackable": true,
+            "startRefId": "0-1783774997008",
+            "style": {
+                "strokeColor": "#1F1F1FFF",
+                "strokeStyle": "solid",
+                "strokeWidth": 3
+            },
+            "tip": "single",
+            "type": "arrow"
+        }
+    ]
+}

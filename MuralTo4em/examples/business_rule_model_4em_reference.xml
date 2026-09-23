@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ADOXML SYSTEM "adoxml31.dtd">
+<ADOXML version="3.1" date="11.07.2026" time="17:00" database="fouremdb" username="Admin" adoversion="Version 1.8">
+<MODELS>
+<MODEL id="mod.11613" name="4EM_Business Rule" version="" modeltype="Business Rule Model" libtype="bp" applib="4EM current">
+<MODELATTRIBUTES>
+<ATTRIBUTE name="Version number" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Author" type="STRING">Admin</ATTRIBUTE>
+<ATTRIBUTE name="Creation date" type="STRING">22.05.2026, 11:51</ATTRIBUTE>
+<ATTRIBUTE name="Date last changed" type="STRING">22.05.2026, 12:00:21</ATTRIBUTE>
+<ATTRIBUTE name="Last user" type="STRING">Admin</ATTRIBUTE>
+<ATTRIBUTE name="Keywords" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Model type" type="ENUMERATION">Current model</ATTRIBUTE>
+<ATTRIBUTE name="State" type="ENUMERATION">In process</ATTRIBUTE>
+<ATTRIBUTE name="Reviewed on" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Reviewed by" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Number of objects and relations" type="INTEGER">2</ATTRIBUTE>
+<ATTRIBUTE name="World area" type="STRING">w:20.9cm h:29.6cm minw:5cm minh:5cm</ATTRIBUTE>
+<ATTRIBUTE name="Grid" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Zoom" type="INTEGER">100</ATTRIBUTE>
+<ATTRIBUTE name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:-16 w:1771 h:708 scale:1
+TABLE
+</ATTRIBUTE>
+<ATTRIBUTE name="Current mode" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Base name" type="STRING">4EM_Business Rule</ATTRIBUTE>
+<ATTRIBUTE name="Access state" type="ENUMERATION">write</ATTRIBUTE>
+<ATTRIBUTE name="Current page layout" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Connector marks" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="STRING">Business Rule Model</ATTRIBUTE>
+<ATTRIBUTE name="Change counter" type="INTEGER">91</ATTRIBUTE>
+<ATTRIBUTE name="Font size" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Context of version" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Relation" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Hinders" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Supports" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Contradicts" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Causes" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: 1:1" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: 1:n" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: n:m" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Others" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Input" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Output" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Motivates" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Requires" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Triggers" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Plays" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: works in" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: works at" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Supplies" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: interacts with" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Navigates" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: responsible for" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: belongs to" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Maintains" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: has requirement" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: has goal" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Eventlog" type="LONGSTRING">[Node_moved@22/05/2026 12:00:23]: Changed Rule for Send Invoice [Rule-26243] position from  x:25cm y:153.5cm w:4cm h:1.5cm index:85 TO x:25cm y:153.5cm w:4cm h:1.5cm index:98
+[Node_moved@22/05/2026 12:00:23]: Changed Rule for Check Availability [Rule-26238] position from  x:25.5cm y:149.5cm w:4cm h:1.5cm index:84 TO x:25.5cm y:149.5cm w:4cm h:1.5cm index:97
+[Node_moved@22/05/2026 12:00:23]: Changed Old Network Switch [IS Technical Component-26232] position from  x:79.5cm y:108cm w:5cm h:2cm index:80 TO x:79.5cm y:108cm w:5cm h:2cm index:93
+[Node_moved@22/05/2026 12:00:23]: Changed Cache Server [IS Technical Component-26229] position from  x:79.5cm y:105cm w:5cm h:2cm index:79 TO x:79.5cm y:105cm w:5cm h:2cm index:92
+[Node_moved@22/05/2026 12:00:23]: Changed New Cloud Database [IS Technical Component-26226] position from  x:72cm y:105cm w:5cm h:2cm index:78 TO x:72cm y:105cm w:5cm h:2cm index:91
+[Node_moved@22/05/2026 12:00:23]: Changed Low Latency Response [IS Requirement-26223] position from  x:67cm y:112.5cm w:5.5cm h:3cm index:77 TO x:67cm y:112.5cm w:5.5cm h:3cm index:90
+[Node_moved@22/05/2026 12:00:23]: Changed PartOF (AND)-119574 [PartOF (AND)-26214] position from  x:29cm y:111.5cm w:0cm h:0cm index:72 TO x:29cm y:111.5cm w:0cm h:0cm index:85
+[Node_moved@22/05/2026 12:00:23]: Changed High Speed Server [Component-26211] position from  x:25.5cm y:114cm w:5cm h:2.49cm index:70 TO x:25.5cm y:114cm w:5cm h:2.49cm index:83
+[Node_moved@22/05/2026 12:00:23]: Changed 4K Live Sports [Feature-26208] position from  x:29cm y:120.5cm w:4.5cm h:3cm index:69 TO x:29cm y:120.5cm w:4.5cm h:3cm index:82
+[Node_moved@22/05/2026 12:00:23]: Changed Entertainment Bundle [Unspecific/Product/Service-26205] position from  x:35.5cm y:109cm w:5.5cm h:4.5cm index:68 TO x:35.5cm y:109cm w:5.5cm h:4.5cm index:81
+[Node_moved@22/05/2026 12:00:23]: Changed Video Streaming Service [Unspecific/Product/Service-26200] position from  x:28.5cm y:106.5cm w:6cm h:4.5cm index:67 TO x:28.5cm y:106.5cm w:6cm h:4.5cm index:80
+[Node_moved@22/05/2026 12:00:23]: Changed Billing Module [Component-26197] position from  x:32cm y:114cm w:5.5cm h:2.49cm index:66 TO x:32cm y:114cm w:5.5cm h:2.49cm index:79
+[Node_moved@22/05/2026 12:00:23]: Changed Average Order Value [KPI-26189] position from  x:79cm y:69.5cm w:5cm h:1.8cm index:59 TO x:79cm y:69.5cm w:5cm h:1.8cm index:72
+[Node_moved@22/05/2026 12:00:23]: Changed Email Address [Attribute-26186] position from  x:71cm y:62.5cm w:5cm h:1.5cm index:58 TO x:71cm y:62.5cm w:5cm h:1.5cm index:71
+[Node_moved@22/05/2026 12:00:23]: Changed Product [Concept-26183] position from  x:71cm y:73.5cm w:5cm h:1.8cm index:57 TO x:71cm y:73.5cm w:5cm h:1.8cm index:70
+[Node_moved@22/05/2026 12:00:23]: Changed Order [Concept-26180] position from  x:71cm y:69.5cm w:5cm h:1.8cm index:56 TO x:71cm y:69.5cm w:5cm h:1.8cm index:69
+[Node_moved@22/05/2026 12:00:23]: Changed Shopping Cart [Concept-26177] position from  x:79.5cm y:66cm w:5cm h:1.8cm index:55 TO x:79.5cm y:66cm w:5cm h:1.8cm index:68
+[Node_moved@22/05/2026 12:00:23]: Changed Customer [Concept-26174] position from  x:71cm y:66cm w:5cm h:1.8cm index:54 TO x:71cm y:66cm w:5cm h:1.8cm index:67
+[Node_moved@22/05/2026 12:00:23]: Changed Backup Drive [Resource-26165] position from  x:33.5cm y:76cm w:4cm h:2cm index:47 TO x:33.5cm y:76cm w:4cm h:2cm index:60
+[Node_moved@22/05/2026 12:00:23]: Changed Alice Smith [Individual-26162] position from  x:39.5cm y:66cm w:4cm h:2cm index:46 TO x:39.5cm y:66cm w:4cm h:2cm index:59
+[Node_moved@22/05/2026 12:00:23]: Changed Lead Developer [Role-26155] position from  x:32.5cm y:68.5cm w:4cm h:2cm index:45 TO x:32.5cm y:68.5cm w:4cm h:2cm index:58
+[Node_moved@22/05/2026 12:00:23]: Changed Dev Team [Organizational Unit-26150] position from  x:32.5cm y:62.5cm w:4cm h:2cm index:44 TO x:32.5cm y:62.5cm w:4cm h:2cm index:57
+[Node_moved@22/05/2026 12:00:23]: Changed IT Department [Organizational Unit-26145] position from  x:25cm y:62.5cm w:4cm h:2cm index:43 TO x:25cm y:62.5cm w:4cm h:2cm index:56
+[Node_moved@22/05/2026 12:00:23]: Changed Source Code Server [Resource-26142] position from  x:25cm y:72.5cm w:4cm h:2cm index:42 TO x:25cm y:72.5cm w:4cm h:2cm index:55
+[Node_moved@22/05/2026 12:00:23]: Changed Order archived [Information Set-26128] position from  x:61cm y:33cm w:6cm h:1.6cm index:40 TO x:61cm y:33cm w:6cm h:1.6cm index:53
+[Node_moved@22/05/2026 12:00:23]: Changed Archive Order [Process-26125] position from  x:61cm y:29.5cm w:4.5cm h:1.2cm index:38 TO x:61cm y:29.5cm w:4.5cm h:1.2cm index:51
+[Node_moved@22/05/2026 12:00:23]: Changed Join (AND)-119481 [Join (AND)-26122] position from  x:55.5cm y:29.5cm w:0cm h:0cm index:35 TO x:55.5cm y:29.5cm w:0cm h:0cm index:48
+[Node_moved@22/05/2026 12:00:23]: Changed Invoice [Information Set-26119] position from  x:60cm y:26cm w:6cm h:1.6cm index:33 TO x:60cm y:26cm w:6cm h:1.6cm index:46
+[Node_moved@22/05/2026 12:00:23]: Changed Send Invoice [Process-26114] position from  x:60cm y:21.5cm w:5.5cm h:1.2cm index:31 TO x:60cm y:21.5cm w:5.5cm h:1.2cm index:44
+[Node_moved@22/05/2026 12:00:22]: Changed Split (AND)-119468 [Split (AND)-26111] position from  x:56.5cm y:18.5cm w:0cm h:0cm index:28 TO x:56.5cm y:18.5cm w:0cm h:0cm index:41
+[Node_moved@22/05/2026 12:00:22]: Changed Shipping Confirmation [Information Set-26108] position from  x:51.5cm y:26cm w:6cm h:1.6cm index:26 TO x:51.5cm y:26cm w:6cm h:1.6cm index:39
+[Node_moved@22/05/2026 12:00:22]: Changed Logistics Delivery [External Process-26103] position from  x:51.5cm y:21.5cm w:5.3cm h:2.5cm index:25 TO x:51.5cm y:21.5cm w:5.3cm h:2.5cm index:38
+[Node_moved@22/05/2026 12:00:22]: Changed Approved Item List [Information Set-26100] position from  x:56.5cm y:15cm w:6cm h:1.6cm index:23 TO x:56.5cm y:15cm w:6cm h:1.6cm index:36
+[Node_moved@22/05/2026 12:00:22]: Changed Check Availability [Process-26093] position from  x:56.5cm y:12cm w:6.5cm h:1.2cm index:21 TO x:56.5cm y:12cm w:6.5cm h:1.2cm index:34
+[Node_moved@22/05/2026 12:00:22]: Changed Purchase Order [Information Set-26090] position from  x:56.5cm y:9.5cm w:6cm h:1.6cm index:20 TO x:56.5cm y:9.5cm w:6cm h:1.6cm index:33
+[Node_moved@22/05/2026 12:00:22]: Changed New AI Technology [Cause-26077] position from  x:10cm y:24.5cm w:4cm h:1.5cm index:10 TO x:10cm y:24.5cm w:4cm h:1.5cm index:23
+[Node_moved@22/05/2026 12:00:22]: Changed AI Chatbot Integration [Opportunity-26074] position from  x:16.5cm y:19.5cm w:4cm h:1.5cm index:9 TO x:16.5cm y:19.5cm w:4cm h:1.5cm index:22
+[Node_moved@22/05/2026 12:00:22]: Changed Low Salary Levels [Cause-26071] position from  x:6cm y:21cm w:4cm h:1.5cm index:8 TO x:6cm y:21cm w:4cm h:1.5cm index:21
+[Node_moved@22/05/2026 12:00:22]: Changed High Employee Turnover [Problem-26068] position from  x:12.5cm y:16.5cm w:4cm h:1.5cm index:7 TO x:12.5cm y:16.5cm w:4cm h:1.5cm index:20
+[Node_moved@22/05/2026 12:00:22]: Changed Annual Budget Limit [Constraint-26065] position from  x:20.5cm y:17cm w:4cm h:1.5cm index:6 TO x:20.5cm y:17cm w:4cm h:1.5cm index:19
+[Node_moved@22/05/2026 12:00:22]: Changed Customer Satisfaction Score [KPI-26062] position from  x:5.5cm y:12cm w:5cm h:1.8cm index:5 TO x:5.5cm y:12cm w:5cm h:1.8cm index:18
+[Node_moved@22/05/2026 12:00:22]: Changed Hire More Support Staff [Goal-26059] position from  x:20.5cm y:9.5cm w:4cm h:1.5cm index:4 TO x:20.5cm y:9.5cm w:4cm h:1.5cm index:17
+[Node_moved@22/05/2026 12:00:22]: Changed Minimize Operational Costs [Goal-26054] position from  x:16.5cm y:13.5cm w:4cm h:1.5cm index:3 TO x:16.5cm y:13.5cm w:4cm h:1.5cm index:16
+[Node_moved@22/05/2026 12:00:22]: Changed Maximize Service Quality [Goal-26049] position from  x:12.5cm y:9.5cm w:4cm h:1.5cm index:2 TO x:12.5cm y:9.5cm w:4cm h:1.5cm index:15
+[Attribute_Value_changed@22/05/2026 11:59:57]: Rule for Send Invoice [Rule-26041] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@22/05/2026 11:59:57]: BRM-Relations-26044 [BRM-Relations-26044] --&gt; interref (Send Invoice (Process) - 4EM_Business Process (Business Process Model))
+[Attribute_Value_changed@22/05/2026 11:59:51]: Rule for Send Invoice [Rule-26041] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@22/05/2026 11:59:46]: Rule for Send Invoice [Rule-26041] --&gt; Description (Send Inovice is to be conducted by the determined lead developer)
+[Attribute_Value_changed@22/05/2026 11:59:07]: Rule for Send Invoice [Rule-26041] --&gt; Description (Send Inovice is to be conducted by the determined individual of the dev team)
+[Attribute_Value_changed@22/05/2026 11:58:50]: Rule for Send Invoice [Rule-26041] --&gt; Name (Rule for Send Invoice)
+[New_Node@22/05/2026 11:58:34]: Rule - 2 [Rule-26041]
+[Attribute_Value_changed@22/05/2026 11:58:23]: BRM-Relations-26039 [BRM-Relations-26039] --&gt; Type (supports)
+[Attribute_Value_changed@22/05/2026 11:57:15]: Rule for Check Availability [Rule-26036] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@22/05/2026 11:57:15]: BRM-Relations-26039 [BRM-Relations-26039] --&gt; interref (Check Availability (Process) - 4EM_Business Process (Business Process Model))
+[Attribute_Value_changed@22/05/2026 11:57:01]: Rule for Check Availability [Rule-26036] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@22/05/2026 11:56:58]: Rule for Check Availability [Rule-26036] --&gt; Description (The availability check is to be conducted by the determined individual of the dev team)
+[Attribute_Value_changed@22/05/2026 11:55:55]: Che [Rule-26036] --&gt; Name (Che)
+[Attribute_Value_changed@22/05/2026 11:55:12]: Rule for Check Availability [Rule-26036] --&gt; Name (Rule for Check Availability)
+[New_Node@22/05/2026 11:54:52]: Rule - 1 [Rule-26036]
+</ATTRIBUTE>
+<ATTRIBUTE name="Open Log" type="PROGRAMCALL">ITEM &quot;Open Log-File&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Export Log" type="PROGRAMCALL">ITEM &quot;Export Log-File&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Position" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="__GfxThumb__" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IteratorModeltype" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Problem" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Goal" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Cause" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Constraint" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Opportunity" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="NOTEBOOK" type="LONGSTRING">NOTEBOOK
+CHAPTER &quot;Description&quot;
+ATTR &quot;Keywords&quot;
+ATTR &quot;Description&quot;
+ATTR &quot;Comment&quot;
+
+CHAPTER &quot;User attributes&quot;
+ATTR &quot;Model type&quot;
+ATTR &quot;State&quot;
+ATTR &quot;Reviewed on&quot;
+ATTR &quot;Reviewed by&quot;
+
+CHAPTER &quot;Iterator&quot;
+SET_ACCESS usergroup:all mode:protected
+MODELTYPE &quot;Goal Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Causes&quot;
+MODELTYPE &quot;Business Rule Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+MODELTYPE &quot;Goal &amp; Business Rule Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Causes&quot;
+MODELTYPE &quot;Concepts Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: 1:1&quot;
+ATTR &quot;Iterator: 1:n&quot;
+ATTR &quot;Iterator: n:m&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Business Process Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Capability Model&quot;
+MODELTYPE &quot;Goal &amp; Business Process Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Motivates&quot;
+ATTR &quot;Iterator: Requires&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Business Rule &amp; Process Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Triggers&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Actors and Resources Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Plays&quot;
+ATTR &quot;Iterator: works in&quot;
+ATTR &quot;Iterator: works at&quot;
+ATTR &quot;Iterator: Supplies&quot;
+ATTR &quot;Iterator: interacts with&quot;
+ATTR &quot;Iterator: Navigates&quot;
+ATTR &quot;Iterator: responsible for&quot;
+ATTR &quot;Iterator: belongs to&quot;
+ATTR &quot;Iterator: Maintains&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Technical Components and Requirements Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Motivates&quot;
+ATTR &quot;Iterator: has requirement&quot;
+ATTR &quot;Iterator: has goal&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Product-Service-Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Requires&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;4EM General Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Causes&quot;
+ATTR &quot;Iterator: Requires&quot;
+ATTR &quot;Iterator: Motivates&quot;
+ATTR &quot;Iterator: has requirement&quot;
+ATTR &quot;Iterator: has goal&quot;
+ATTR &quot;Iterator: Plays&quot;
+ATTR &quot;Iterator: works in&quot;
+ATTR &quot;Iterator: works at&quot;
+ATTR &quot;Iterator: Supplies&quot;
+ATTR &quot;Iterator: interacts with&quot;
+ATTR &quot;Iterator: Navigates&quot;
+ATTR &quot;Iterator: responsible for&quot;
+ATTR &quot;Iterator: belongs to&quot;
+ATTR &quot;Iterator: Maintains&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Triggers&quot;
+ATTR &quot;Iterator: 1:1&quot;
+ATTR &quot;Iterator: 1:n&quot;
+ATTR &quot;Iterator: n:m&quot;
+ATTR &quot;Iterator: Others&quot;
+
+MODELTYPE all
+
+CHAPTER &quot;System attributes&quot;
+SET_ACCESS usergroup:all mode:protected
+ATTR &quot;Author&quot;
+ATTR &quot;Creation date&quot;
+ATTR &quot;Last user&quot;
+ATTR &quot;Date last changed&quot;
+ATTR &quot;Number of objects and relations&quot;
+ATTR &quot;Context of version&quot;
+
+CHAPTER &quot;Logging&quot;
+SET_ACCESS usergroup:all mode:protected
+ATTR &quot;Eventlog&quot; lines:40
+ATTR &quot;Open Log&quot; push-button no-auto no-param
+ATTR &quot;Export Log&quot; push-button no-auto no-param</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Rule" type="INTEGER">2</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Development Action" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Assumption" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Comment" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Concept" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Attribute" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Process" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: External Process" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Information Set" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Capability" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Individual" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Role" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Resource" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Organizational Unit" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: IS Technical Component" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: IS Requirement" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Component" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Feature" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Unspecific/Product/Service" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: KPI" type="INTEGER">0</ATTRIBUTE>
+</MODELATTRIBUTES>
+<INSTANCE id="obj.11614" class="Rule" name="Rule for Check Availability">
+<ATTRIBUTE name="Position" type="STRING">NODE x:3.5cm y:4.5cm w:4cm h:1.5cm index:1</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Derivation Rule</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">The availability check is to be conducted by the determined individual of the dev team</ATTRIBUTE>
+<RECORD name="Intermodel-Relations">
+<ROW id="row.11617" number="1">
+<ATTRIBUTE name="Type" type="ENUMERATION">supports</ATTRIBUTE>
+<INTERREF name="interref">
+<IREF type="objectreference" tmodeltype="Business Process Model" tmodelname="4EM_Business Process" tmodelver="" tclassname="Process" tobjname="Check Availability"></IREF>
+</INTERREF>
+</ROW>
+</RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Formal description in advanced language" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.11619" class="Rule" name="Rule for Send Invoice">
+<ATTRIBUTE name="Position" type="STRING">NODE x:3cm y:8.5cm w:4cm h:1.5cm index:2</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Derivation Rule</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">Send Inovice is to be conducted by the determined lead developer</ATTRIBUTE>
+<RECORD name="Intermodel-Relations">
+<ROW id="row.11622" number="1">
+<ATTRIBUTE name="Type" type="ENUMERATION">supports</ATTRIBUTE>
+<INTERREF name="interref">
+<IREF type="objectreference" tmodeltype="Business Process Model" tmodelname="4EM_Business Process" tmodelver="" tclassname="Process" tobjname="Send Invoice"></IREF>
+</INTERREF>
+</ROW>
+</RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Formal description in advanced language" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+</MODEL>
+</MODELS>
+</ADOXML>

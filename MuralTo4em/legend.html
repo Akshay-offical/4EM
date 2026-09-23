@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mural sticky note palette for 4EM</title>
+<style>
+  body { font-family: system-ui, "Segoe UI", Arial, sans-serif; margin: 2rem auto; max-width: 900px;
+         color: #222; line-height: 1.5; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: .3rem; }
+  p  { max-width: 60ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: .75rem; }
+  .item { display: flex; align-items: center; gap: .7rem; border: 1px solid #e3e3e3;
+          border-radius: 8px; padding: .5rem .7rem; }
+  .swatch { width: 40px; height: 40px; border: 1px solid #999; flex: 0 0 auto; }
+  .label { display: flex; flex-direction: column; font-size: .85rem; }
+  .label span { color: #666; font-family: ui-monospace, Consolas, monospace; font-size: .78rem; }
+  @media print { .item { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<h1>Mural sticky note palette for 4EM</h1>
+<p>Every 4EM class is represented by one combination of sticky note colour and shape. Build the
+legend board in Mural from this page: create one sticky per entry, set its colour to the hex value
+shown and its shape to rectangle or circle, and label it with the class name. During a modelling
+session, duplicate stickies from the legend board instead of choosing colours by hand.</p>
+<p>The colours are shown here without the trailing alpha channel that Mural reports in its API
+export. The converter matches on the full eight-digit value, so a visually similar but different
+shade is not recognised. Generated from <code>COLOR_SHAPE_TO_CLASS</code> in
+<code>mural_to_4em.py</code>.</p>
+<h2>Goal Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#AAED92;border-radius:6px"></div><div class="label"><strong>Goal</strong><span>#AAED92FF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#AAED92;border-radius:50%"></div><div class="label"><strong>KPI</strong><span>#AAED92FF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#F6A324;border-radius:6px"></div><div class="label"><strong>Problem</strong><span>#F6A324FF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#9EDCFA;border-radius:6px"></div><div class="label"><strong>Cause</strong><span>#9EDCFAFF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#FFFFFF;border-radius:6px"></div><div class="label"><strong>Constraint</strong><span>#FFFFFFFF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#459C5B;border-radius:6px"></div><div class="label"><strong>Opportunity</strong><span>#459C5BFF</span><span>rectangle</span></div></div>
+</div>
+<h2>Business Process Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#FFFFFF;border-radius:50%"></div><div class="label"><strong>Process</strong><span>#FFFFFFFF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#EDEDED;border-radius:6px"></div><div class="label"><strong>External Process</strong><span>#EDEDEDFF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#FBF9E5;border-radius:6px"></div><div class="label"><strong>Information Set</strong><span>#FBF9E5FF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#EDEDED;border-radius:50%"></div><div class="label"><strong>Split (AND)</strong><span>#EDEDEDFF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#F7F7F7;border-radius:50%"></div><div class="label"><strong>Join (AND)</strong><span>#F7F7F7FF</span><span>circle</span></div></div>
+</div>
+<h2>Actors and Resources Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#FEBBBE;border-radius:6px"></div><div class="label"><strong>Individual</strong><span>#FEBBBEFF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#9E7EE6;border-radius:6px"></div><div class="label"><strong>Role</strong><span>#9E7EE6FF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#D4D4D4;border-radius:6px"></div><div class="label"><strong>Resource</strong><span>#D4D4D4FF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#F7F7F7;border-radius:6px"></div><div class="label"><strong>Organizational Unit</strong><span>#F7F7F7FF</span><span>rectangle</span></div></div>
+</div>
+<h2>Concepts Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#E6C003;border-radius:50%"></div><div class="label"><strong>Concept</strong><span>#E6C003FF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#D4D4D4;border-radius:50%"></div><div class="label"><strong>Attribute</strong><span>#D4D4D4FF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#459C5B;border-radius:50%"></div><div class="label"><strong>KPI</strong><span>#459C5BFF</span><span>circle</span></div></div>
+</div>
+<h2>Technical Components and Requirements Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#D8C7FF;border-radius:50%"></div><div class="label"><strong>IS Technical Component</strong><span>#D8C7FFFF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#9EDCFA;border-radius:50%"></div><div class="label"><strong>IS Requirement</strong><span>#9EDCFAFF</span><span>circle</span></div></div>
+</div>
+<h2>Product-Service-Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#0561A6;border-radius:6px"></div><div class="label"><strong>Unspecific/Product/Service</strong><span>#0561A6FF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#2897DC;border-radius:6px"></div><div class="label"><strong>Feature</strong><span>#2897DCFF</span><span>rectangle</span></div></div>
+<div class="item"><div class="swatch" style="background:#F8F7FD;border-radius:50%"></div><div class="label"><strong>Component</strong><span>#F8F7FDFF</span><span>circle</span></div></div>
+<div class="item"><div class="swatch" style="background:#FCB6D4;border-radius:6px"></div><div class="label"><strong>PartOF (AND)</strong><span>#FCB6D4FF</span><span>rectangle</span></div></div>
+</div>
+<h2>Business Rule Model</h2>
+<div class="grid">
+<div class="item"><div class="swatch" style="background:#B3B3B3;border-radius:6px"></div><div class="label"><strong>Rule</strong><span>#B3B3B3FF</span><span>rectangle</span></div></div>
+</div>
+</body>
+</html>

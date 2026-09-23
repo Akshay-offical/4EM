@@ -1,0 +1,112 @@
+{
+    "value": [
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783781941729,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783781888378,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783781887766",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 0,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783781973335,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1783301827701?wid=0-1783781887766",
+            "width": 168,
+            "x": 452.2480163574219,
+            "y": -4.814721317291275,
+            "htmlText": "<html v=\"1\"><div><b><span>Rule for Check Availability</span></b></div><div><span>The availability check is to be conducted by the determined individual of the dev team</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#B3B3B3FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 14,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        },
+        {
+            "contentEditedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "contentEditedOn": 1783781963550,
+            "createdBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "createdOn": 1783781891381,
+            "height": 168,
+            "hidden": false,
+            "hideEditor": false,
+            "hideOwner": false,
+            "id": "0-1783781890787",
+            "instruction": "",
+            "invisible": false,
+            "locked": false,
+            "lockedByFacilitator": false,
+            "parentId": null,
+            "presentationIndex": -1,
+            "rotation": 0,
+            "stackingOrder": 1,
+            "title": "",
+            "updatedBy": {
+                "firstName": "Prasanna",
+                "id": "u3032d2775f087fafa8ed9322",
+                "lastName": "Bhat"
+            },
+            "updatedOn": 1783781975616,
+            "viewLink": "https://app.mural.co/t/aemproject5305/m/aemproject5305/1783301827701?wid=0-1783781890787",
+            "width": 168,
+            "x": 452.24800415039067,
+            "y": 286.06527868270877,
+            "htmlText": "<html v=\"1\"><div><b><span>Rule for Send Invoice</span></b></div><div><span>Send Inovice is to be conducted by the determined lead developer</span></div></html>",
+            "minLines": 5,
+            "shape": "rectangle",
+            "style": {
+                "backgroundColor": "#B3B3B3FF",
+                "bold": false,
+                "border": false,
+                "font": "proxima-nova",
+                "fontSize": 17,
+                "italic": false,
+                "strike": false,
+                "textAlign": "center",
+                "underline": false
+            },
+            "text": "",
+            "type": "sticky note"
+        }
+    ]
+}

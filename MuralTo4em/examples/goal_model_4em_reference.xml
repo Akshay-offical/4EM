@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ADOXML SYSTEM "adoxml31.dtd">
+<ADOXML version="3.1" date="11.07.2026" time="15:42" database="fouremdb" username="Admin" adoversion="Version 1.8">
+<MODELS>
+<MODEL id="mod.11406" name="4EM_Goal" version="" modeltype="Goal Model" libtype="bp" applib="4EM current">
+<MODELATTRIBUTES>
+<ATTRIBUTE name="Version number" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Author" type="STRING">4EMcurrent</ATTRIBUTE>
+<ATTRIBUTE name="Creation date" type="STRING">19.11.2025, 15:26</ATTRIBUTE>
+<ATTRIBUTE name="Date last changed" type="STRING">22.05.2026, 12:00:21</ATTRIBUTE>
+<ATTRIBUTE name="Last user" type="STRING">Admin</ATTRIBUTE>
+<ATTRIBUTE name="Keywords" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Model type" type="ENUMERATION">Current model</ATTRIBUTE>
+<ATTRIBUTE name="State" type="ENUMERATION">In process</ATTRIBUTE>
+<ATTRIBUTE name="Reviewed on" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Reviewed by" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Number of objects and relations" type="INTEGER">19</ATTRIBUTE>
+<ATTRIBUTE name="World area" type="STRING">w:22cm h:29.01cm minw:5cm minh:5cm</ATTRIBUTE>
+<ATTRIBUTE name="Grid" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Zoom" type="INTEGER">100</ATTRIBUTE>
+<ATTRIBUTE name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:-7 w:1771 h:708 scale:1
+TABLE
+</ATTRIBUTE>
+<ATTRIBUTE name="Current mode" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Base name" type="STRING">4EM_Goal</ATTRIBUTE>
+<ATTRIBUTE name="Access state" type="ENUMERATION">write</ATTRIBUTE>
+<ATTRIBUTE name="Current page layout" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Connector marks" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="STRING">Goal Model</ATTRIBUTE>
+<ATTRIBUTE name="Change counter" type="INTEGER">760</ATTRIBUTE>
+<ATTRIBUTE name="Font size" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Context of version" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Relation" type="INTEGER">10</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Hinders" type="INTEGER">3</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Supports" type="INTEGER">2</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Contradicts" type="INTEGER">2</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Causes" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: 1:1" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: 1:n" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: n:m" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Others" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Input" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Output" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Motivates" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Requires" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Triggers" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Plays" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: works in" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: works at" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Supplies" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: interacts with" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Navigates" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: responsible for" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: belongs to" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Maintains" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: has requirement" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: has goal" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Eventlog" type="LONGSTRING">[Attribute_Value_changed@11/07/2026 15:03:42]: High Employee Turnover [Problem-11426] --&gt; type (Problem)
+[Attribute_Value_changed@11/07/2026 15:03:33]: High Employee Turnover [Problem-11426] --&gt; type (Weakness)
+[Deleted_Instance@11/07/2026 14:58:30]: KPI - 2 [KPI-11864]
+[Deleted_Instance@11/07/2026 14:58:30]: KPI - 3 [KPI-11867]
+[Deleted_Instance@11/07/2026 14:58:29]: KPI - 4 [KPI-11870]
+[New_Node@11/07/2026 14:58:20]: KPI - 4 [KPI-11870]
+[New_Node@11/07/2026 14:58:20]: KPI - 3 [KPI-11867]
+[Node_moved@11/07/2026 14:58:20]: Changed KPI-11867 [KPI-11867] position from  x:5cm y:5cm w:5cm h:1.8cm index:21 TO x:5.5cm y:5.5cm w:5cm h:1.8cm index:21
+[New_Node@11/07/2026 14:58:20]: KPI - 2 [KPI-11864]
+[Attribute_Value_changed@19/11/2025 17:09:08]: Minimize Operational Costs [Goal-119406] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@19/11/2025 17:09:08]: GM-Model-119814 [GM-Model-119814] --&gt; interref (Product (Concept) - 4EM_Concepts (Concepts Model))
+[Attribute_Value_changed@19/11/2025 17:09:00]: Minimize Operational Costs [Goal-119406] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@19/11/2025 17:08:51]: Maximize Service Quality [Goal-119403] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@19/11/2025 17:08:51]: GM-Model-119812 [GM-Model-119812] --&gt; interref (Customer (Concept) - 4EM_Concepts (Concepts Model))
+[Attribute_Value_changed@19/11/2025 17:08:42]: Maximize Service Quality [Goal-119403] --&gt; Intermodel-Relations ()
+[Attribute_Value_changed@19/11/2025 15:55:11]: Minimize Operational Costs [Goal-119406] --&gt; Priority (Medium)
+[Attribute_Value_changed@19/11/2025 15:55:01]: Maximize Service Quality [Goal-119403] --&gt; Priority (High)
+[Node_moved@19/11/2025 15:33:57]: Changed High Employee Turnover [Problem-119418] position from  x:9cm y:9.5cm w:4cm h:1.5cm index:6 TO x:10.5cm y:9cm w:4cm h:1.5cm index:6
+[Node_moved@19/11/2025 15:33:55]: Changed Annual Budget Limit [Constraint-119415] position from  x:19cm y:12cm w:4cm h:1.5cm index:5 TO x:18.5cm y:9.5cm w:4cm h:1.5cm index:5
+[Node_moved@19/11/2025 15:33:54]: Changed AI Chatbot Integration [Opportunity-119424] position from  x:13cm y:13cm w:4cm h:1.5cm index:8 TO x:14.5cm y:12cm w:4cm h:1.5cm index:8
+[Node_moved@19/11/2025 15:33:51]: Changed New AI Technology [Cause-119427] position from  x:10cm y:15cm w:4cm h:1.5cm index:9 TO x:8cm y:17cm w:4cm h:1.5cm index:9
+[New_Relation@19/11/2025 15:33:49]: New AI Technology [Cause-119427] - Causes [119439] - AI Chatbot Integration [Opportunity-119424]
+[New_Relation@19/11/2025 15:33:39]: Low Salary Levels [Cause-119421] - Causes [119438] - High Employee Turnover [Problem-119418]
+[New_Relation@19/11/2025 15:33:30]: AI Chatbot Integration [Opportunity-119424] - Supports [119437] - Minimize Operational Costs [Goal-119406]
+[Node_moved@19/11/2025 15:33:27]: Changed AI Chatbot Integration [Opportunity-119424] position from  x:13.5cm y:13.5cm w:4cm h:1.5cm index:8 TO x:13cm y:13cm w:4cm h:1.5cm index:8
+[New_Relation@19/11/2025 15:33:16]: High Employee Turnover [Problem-119418] - Hinders [119436] - Maximize Service Quality [Goal-119403]
+[Node_moved@19/11/2025 15:33:14]: Changed High Employee Turnover [Problem-119418] position from  x:4cm y:7.5cm w:4cm h:1.5cm index:6 TO x:9cm y:9.5cm w:4cm h:1.5cm index:6
+[Node_moved@19/11/2025 15:33:13]: Changed AI Chatbot Integration [Opportunity-119424] position from  x:10.5cm y:9.5cm w:4cm h:1.5cm index:8 TO x:13.5cm y:13.5cm w:4cm h:1.5cm index:8
+[New_Relation@19/11/2025 15:33:04]: Annual Budget Limit [Constraint-119415] - Hinders [119435] - Hire More Support Staff [Goal-119409]
+[Node_moved@19/11/2025 15:32:57]: Changed Annual Budget Limit [Constraint-119415] position from  x:17.5cm y:15.5cm w:4cm h:1.5cm index:5 TO x:19cm y:12cm w:4cm h:1.5cm index:5
+[Attribute_Value_changed@19/11/2025 15:32:36]: Customer Satisfaction Score [KPI-119412] --&gt; Designation (840)
+[Node_moved@19/11/2025 15:32:24]: Changed Minimize Operational Costs [Goal-119406] position from  x:11.5cm y:6.5cm w:4cm h:1.5cm index:2 TO x:14.5cm y:6cm w:4cm h:1.5cm index:2
+[Node_moved@19/11/2025 15:32:24]: Changed Hire More Support Staff [Goal-119409] position from  x:15.5cm y:2.5cm w:4cm h:1.5cm index:3 TO x:18.5cm y:2cm w:4cm h:1.5cm index:3
+[Node_moved@19/11/2025 15:32:24]: Changed Maximize Service Quality [Goal-119403] position from  x:7.5cm y:2.5cm w:4cm h:1.5cm index:1 TO x:10.5cm y:2cm w:4cm h:1.5cm index:1
+[Node_moved@19/11/2025 15:32:20]: Changed Customer Satisfaction Score [KPI-119412] position from  x:19cm y:10cm w:5cm h:1.8cm index:4 TO x:3.5cm y:4.5cm w:5cm h:1.8cm index:4
+[New_Relation@19/11/2025 15:32:18]: Customer Satisfaction Score [KPI-119412] - measured by [119434] - Maximize Service Quality [Goal-119403]
+[New_Relation@19/11/2025 15:32:03]: Minimize Operational Costs [Goal-119406] - Hinders [119433] - Hire More Support Staff [Goal-119409]
+[Node_moved@19/11/2025 15:31:45]: Changed Minimize Operational Costs [Goal-119406] position from  x:10cm y:6cm w:4cm h:1.5cm index:2 TO x:11.5cm y:6.5cm w:4cm h:1.5cm index:2
+[New_Relation@19/11/2025 15:31:43]: Maximize Service Quality [Goal-119403] - Contradicts [119431] - Minimize Operational Costs [Goal-119406]
+[New_Relation@19/11/2025 15:31:24]: Hire More Support Staff [Goal-119409] - Supports [119430] - Maximize Service Quality [Goal-119403]
+[Node_moved@19/11/2025 15:31:21]: Changed Maximize Service Quality [Goal-119403] position from  x:4.5cm y:3.5cm w:4cm h:1.5cm index:1 TO x:7.5cm y:2.5cm w:4cm h:1.5cm index:1
+[Node_moved@19/11/2025 15:31:20]: Changed Hire More Support Staff [Goal-119409] position from  x:16.5cm y:3cm w:4cm h:1.5cm index:3 TO x:15.5cm y:2.5cm w:4cm h:1.5cm index:3
+[Node_moved@19/11/2025 15:31:18]: Changed Maximize Service Quality [Goal-119403] position from  x:4.5cm y:3cm w:4cm h:1.5cm index:1 TO x:4.5cm y:3.5cm w:4cm h:1.5cm index:1
+[Node_moved@19/11/2025 15:31:17]: Changed Minimize Operational Costs [Goal-119406] position from  x:10.5cm y:3cm w:4cm h:1.5cm index:2 TO x:10cm y:6cm w:4cm h:1.5cm index:2
+[Node_moved@19/11/2025 15:31:00]: Changed New AI Technology [Cause-119427] position from  x:12.5cm y:15.5cm w:4cm h:1.5cm index:9 TO x:10cm y:15cm w:4cm h:1.5cm index:9
+[Attribute_Value_changed@19/11/2025 15:30:59]: New AI Technology [Cause-119427] --&gt; Description (The external factor that enables the chatbot integration.)
+[Attribute_Value_changed@19/11/2025 15:30:55]: New AI Technology [Cause-119427] --&gt; Name (New AI Technology)
+[New_Node@19/11/2025 15:30:52]: Cause - 2 [Cause-119427]
+[Attribute_Value_changed@19/11/2025 15:30:39]: AI Chatbot Integration [Opportunity-119424] --&gt; Description (A chance to use technology to automate answers.)
+[Attribute_Value_changed@19/11/2025 15:30:31]: AI Chatbot Integration [Opportunity-119424] --&gt; Name (AI Chatbot Integration)
+[New_Node@19/11/2025 15:30:28]: Opportunity - 1 [Opportunity-119424]
+[Attribute_Value_changed@19/11/2025 15:30:14]: Low Salary Levels [Cause-119421] --&gt; Description (The root reason why employees are leaving.)
+[Attribute_Value_changed@19/11/2025 15:30:05]: Low Salary Levels [Cause-119421] --&gt; Name (Low Salary Levels)
+[New_Node@19/11/2025 15:30:01]: Cause - 1 [Cause-119421]
+[Node_moved@19/11/2025 15:30:00]: Changed Annual Budget Limit [Constraint-119415] position from  x:8cm y:13.5cm w:4cm h:1.5cm index:5 TO x:17.5cm y:15.5cm w:4cm h:1.5cm index:5
+[Node_moved@19/11/2025 15:29:37]: Changed Hire More Support Staff [Goal-119409] position from  x:16cm y:3cm w:4cm h:1.5cm index:3 TO x:16.5cm y:3cm w:4cm h:1.5cm index:3
+[Node_moved@19/11/2025 15:29:34]: Changed Hire More Support Staff [Goal-119409] position from  x:20cm y:4cm w:4cm h:1.5cm index:3 TO x:16cm y:3cm w:4cm h:1.5cm index:3
+[Node_moved@19/11/2025 15:29:33]: Changed Minimize Operational Costs [Goal-119406] position from  x:12cm y:3.5cm w:4cm h:1.5cm index:2 TO x:10.5cm y:3cm w:4cm h:1.5cm index:2
+[Node_moved@19/11/2025 15:29:32]: Changed Annual Budget Limit [Constraint-119415] position from  x:4.5cm y:11cm w:4cm h:1.5cm index:5 TO x:8cm y:13.5cm w:4cm h:1.5cm index:5
+[Node_moved@19/11/2025 15:29:31]: Changed Customer Satisfaction Score [KPI-119412] position from  x:10.5cm y:9cm w:5cm h:1.8cm index:4 TO x:19cm y:10cm w:5cm h:1.8cm index:4
+[Node_moved@19/11/2025 15:29:28]: Changed High Employee Turnover [Problem-119418] position from  x:3.5cm y:7.5cm w:4cm h:1.5cm index:6 TO x:4cm y:7.5cm w:4cm h:1.5cm index:6
+[Attribute_Value_changed@19/11/2025 15:29:26]: High Employee Turnover [Problem-119418] --&gt; Description (The issue that staff leaves the company too frequently.)
+[Attribute_Value_changed@19/11/2025 15:29:18]: High Employee Turnover [Problem-119418] --&gt; Name (High Employee Turnover)
+[New_Node@19/11/2025 15:29:12]: Problem - 1 [Problem-119418]
+[Attribute_Value_changed@19/11/2025 15:29:04]: Annual Budget Limit [Constraint-119415] --&gt; Description (A strict financial restriction that cannot be exceeded.)
+[Attribute_Value_changed@19/11/2025 15:28:51]: Hire More Support Staff [Goal-119409] --&gt; Description (An operational goal to increase the headcount of the support team.)
+[Attribute_Value_changed@19/11/2025 15:28:40]: Minimize Operational Costs [Goal-119406] --&gt; Description (Keep the running costs as low as possible.)
+[Attribute_Value_changed@19/11/2025 15:28:26]: Maximize Service Quality [Goal-119403] --&gt; Description (Provide the best possible support to customers.)
+[Attribute_Value_changed@19/11/2025 15:28:04]: Maximize Service Quality [Goal-119403] --&gt; Description (The objective to provide the best possible support to customers.)
+[Attribute_Value_changed@19/11/2025 15:27:56]: Annual Budget Limit [Constraint-119415] --&gt; Name (Annual Budget Limit)
+[New_Node@19/11/2025 15:27:54]: Constraint - 1 [Constraint-119415]
+[Attribute_Value_changed@19/11/2025 15:27:44]: Customer Satisfaction Score [KPI-119412] --&gt; Name (Customer Satisfaction Score)
+[New_Node@19/11/2025 15:27:41]: KPI - 1 [KPI-119412]
+[Attribute_Value_changed@19/11/2025 15:27:30]: Hire More Support Staff [Goal-119409] --&gt; Name (Hire More Support Staff)
+[Attribute_Value_changed@19/11/2025 15:27:24]: Minimize Operational Costs [Goal-119406] --&gt; Name (Minimize Operational Costs)
+[Attribute_Value_changed@19/11/2025 15:27:17]: Maximize Service Quality [Goal-119403] --&gt; Name (Maximize Service Quality)
+[New_Node@19/11/2025 15:27:09]: Goal - 3 [Goal-119409]
+[New_Node@19/11/2025 15:27:08]: Goal - 2 [Goal-119406]
+[New_Node@19/11/2025 15:27:08]: Goal - 1 [Goal-119403]
+</ATTRIBUTE>
+<ATTRIBUTE name="Open Log" type="PROGRAMCALL">ITEM &quot;Open Log-File&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Export Log" type="PROGRAMCALL">ITEM &quot;Export Log-File&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Position" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="__GfxThumb__" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IteratorModeltype" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Problem" type="INTEGER">1</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Goal" type="INTEGER">3</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Cause" type="INTEGER">2</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Constraint" type="INTEGER">1</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Opportunity" type="INTEGER">1</ATTRIBUTE>
+<ATTRIBUTE name="NOTEBOOK" type="LONGSTRING">NOTEBOOK
+CHAPTER &quot;Description&quot;
+ATTR &quot;Keywords&quot;
+ATTR &quot;Description&quot;
+ATTR &quot;Comment&quot;
+
+CHAPTER &quot;User attributes&quot;
+ATTR &quot;Model type&quot;
+ATTR &quot;State&quot;
+ATTR &quot;Reviewed on&quot;
+ATTR &quot;Reviewed by&quot;
+
+CHAPTER &quot;Iterator&quot;
+SET_ACCESS usergroup:all mode:protected
+MODELTYPE &quot;Goal Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Causes&quot;
+MODELTYPE &quot;Business Rule Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+MODELTYPE &quot;Goal &amp; Business Rule Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Causes&quot;
+MODELTYPE &quot;Concepts Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: 1:1&quot;
+ATTR &quot;Iterator: 1:n&quot;
+ATTR &quot;Iterator: n:m&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Business Process Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Capability Model&quot;
+MODELTYPE &quot;Goal &amp; Business Process Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Motivates&quot;
+ATTR &quot;Iterator: Requires&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Business Rule &amp; Process Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Triggers&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Actors and Resources Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Plays&quot;
+ATTR &quot;Iterator: works in&quot;
+ATTR &quot;Iterator: works at&quot;
+ATTR &quot;Iterator: Supplies&quot;
+ATTR &quot;Iterator: interacts with&quot;
+ATTR &quot;Iterator: Navigates&quot;
+ATTR &quot;Iterator: responsible for&quot;
+ATTR &quot;Iterator: belongs to&quot;
+ATTR &quot;Iterator: Maintains&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Technical Components and Requirements Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Motivates&quot;
+ATTR &quot;Iterator: has requirement&quot;
+ATTR &quot;Iterator: has goal&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;Product-Service-Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Requires&quot;
+ATTR &quot;Iterator: Others&quot;
+MODELTYPE &quot;4EM General Model&quot;
+GROUP &quot;Relations&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Relation&quot;
+ATTR &quot;Iterator: Hinders&quot;
+ATTR &quot;Iterator: Supports&quot;
+ATTR &quot;Iterator: Contradicts&quot;
+ATTR &quot;Iterator: Causes&quot;
+ATTR &quot;Iterator: Requires&quot;
+ATTR &quot;Iterator: Motivates&quot;
+ATTR &quot;Iterator: has requirement&quot;
+ATTR &quot;Iterator: has goal&quot;
+ATTR &quot;Iterator: Plays&quot;
+ATTR &quot;Iterator: works in&quot;
+ATTR &quot;Iterator: works at&quot;
+ATTR &quot;Iterator: Supplies&quot;
+ATTR &quot;Iterator: interacts with&quot;
+ATTR &quot;Iterator: Navigates&quot;
+ATTR &quot;Iterator: responsible for&quot;
+ATTR &quot;Iterator: belongs to&quot;
+ATTR &quot;Iterator: Maintains&quot;
+ATTR &quot;Iterator: Input&quot;
+ATTR &quot;Iterator: Output&quot;
+ATTR &quot;Iterator: Triggers&quot;
+ATTR &quot;Iterator: 1:1&quot;
+ATTR &quot;Iterator: 1:n&quot;
+ATTR &quot;Iterator: n:m&quot;
+ATTR &quot;Iterator: Others&quot;
+
+MODELTYPE all
+
+CHAPTER &quot;System attributes&quot;
+SET_ACCESS usergroup:all mode:protected
+ATTR &quot;Author&quot;
+ATTR &quot;Creation date&quot;
+ATTR &quot;Last user&quot;
+ATTR &quot;Date last changed&quot;
+ATTR &quot;Number of objects and relations&quot;
+ATTR &quot;Context of version&quot;
+
+CHAPTER &quot;Logging&quot;
+SET_ACCESS usergroup:all mode:protected
+ATTR &quot;Eventlog&quot; lines:40
+ATTR &quot;Open Log&quot; push-button no-auto no-param
+ATTR &quot;Export Log&quot; push-button no-auto no-param</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Rule" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Development Action" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Assumption" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Comment" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Concept" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Attribute" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Process" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: External Process" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Information Set" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Capability" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Individual" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Role" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Resource" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Organizational Unit" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: IS Technical Component" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: IS Requirement" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Component" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Feature" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: Unspecific/Product/Service" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Iterator: KPI" type="INTEGER">4</ATTRIBUTE>
+</MODELATTRIBUTES>
+<INSTANCE id="obj.11407" class="Goal" name="Maximize Service Quality">
+<ATTRIBUTE name="Position" type="STRING">NODE x:10.5cm y:2cm w:4cm h:1.5cm index:2</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">Provide the best possible support to customers.</ATTRIBUTE>
+<ATTRIBUTE name="Criticality" type="ENUMERATION">Low</ATTRIBUTE>
+<ATTRIBUTE name="Priority" type="ENUMERATION">High</ATTRIBUTE>
+<RECORD name="Intermodel-Relations">
+<ROW id="row.11410" number="1">
+<ATTRIBUTE name="Type" type="ENUMERATION">relates to</ATTRIBUTE>
+<INTERREF name="interref">
+<IREF type="objectreference" tmodeltype="Concepts Model" tmodelname="4EM_Concepts" tmodelver="" tclassname="Concept" tobjname="Customer"></IREF>
+</INTERREF>
+</ROW>
+</RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Attributes"></RECORD>
+</INSTANCE>
+<INSTANCE id="obj.11412" class="Goal" name="Minimize Operational Costs">
+<ATTRIBUTE name="Position" type="STRING">NODE x:14.5cm y:6cm w:4cm h:1.5cm index:3</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">Keep the running costs as low as possible.</ATTRIBUTE>
+<ATTRIBUTE name="Criticality" type="ENUMERATION">Low</ATTRIBUTE>
+<ATTRIBUTE name="Priority" type="ENUMERATION">Medium</ATTRIBUTE>
+<RECORD name="Intermodel-Relations">
+<ROW id="row.11415" number="1">
+<ATTRIBUTE name="Type" type="ENUMERATION">relates to</ATTRIBUTE>
+<INTERREF name="interref">
+<IREF type="objectreference" tmodeltype="Concepts Model" tmodelname="4EM_Concepts" tmodelver="" tclassname="Concept" tobjname="Product"></IREF>
+</INTERREF>
+</ROW>
+</RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Attributes"></RECORD>
+</INSTANCE>
+<INSTANCE id="obj.11417" class="Goal" name="Hire More Support Staff">
+<ATTRIBUTE name="Position" type="STRING">NODE x:18.5cm y:2cm w:4cm h:1.5cm index:4</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">An operational goal to increase the headcount of the support team.</ATTRIBUTE>
+<ATTRIBUTE name="Criticality" type="ENUMERATION">Low</ATTRIBUTE>
+<ATTRIBUTE name="Priority" type="ENUMERATION">Low</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Attributes"></RECORD>
+</INSTANCE>
+<INSTANCE id="obj.11420" class="KPI" name="Customer Satisfaction Score">
+<ATTRIBUTE name="Position" type="STRING">NODE x:3.5cm y:4.5cm w:5cm h:1.8cm index:5</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Target Value" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="KPI Log" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="Designation" type="LONGSTRING">840</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.11423" class="Constraint" name="Annual Budget Limit">
+<ATTRIBUTE name="Position" type="STRING">NODE x:18.5cm y:9.5cm w:4cm h:1.5cm index:6</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">A strict financial restriction that cannot be exceeded.</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.11426" class="Problem" name="High Employee Turnover">
+<ATTRIBUTE name="Position" type="STRING">NODE x:10.5cm y:9cm w:4cm h:1.5cm index:7</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="Priority" type="ENUMERATION">Low</ATTRIBUTE>
+<ATTRIBUTE name="Criticality" type="ENUMERATION">Low</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">The issue that staff leaves the company too frequently.</ATTRIBUTE>
+<ATTRIBUTE name="type" type="ENUMERATION">Problem</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.11429" class="Cause" name="Low Salary Levels">
+<ATTRIBUTE name="Position" type="STRING">NODE x:4cm y:13.5cm w:4cm h:1.5cm index:8</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">The root reason why employees are leaving.</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.11432" class="Opportunity" name="AI Chatbot Integration">
+<ATTRIBUTE name="Position" type="STRING">NODE x:14.5cm y:12cm w:4cm h:1.5cm index:9</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">A chance to use technology to automate answers.</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.11435" class="Cause" name="New AI Technology">
+<ATTRIBUTE name="Position" type="STRING">NODE x:8cm y:17cm w:4cm h:1.5cm index:10</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING">The external factor that enables the chatbot integration.</ATTRIBUTE>
+<RECORD name="Intermodel-Relations"></RECORD>
+<INTERREF name="Decomposition"></INTERREF>
+<RECORD name="Attributes"></RECORD>
+<ATTRIBUTE name="Defined by" type="LONGSTRING"></ATTRIBUTE>
+</INSTANCE>
+<CONNECTOR id="con.11438" class="4EM_Relation">
+<FROM instance="Maximize Service Quality" class="Goal"></FROM>
+<TO instance="Minimize Operational Costs" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:12</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Contradicts</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11439" class="4EM_Relation">
+<FROM instance="Maximize Service Quality" class="Goal"></FROM>
+<TO instance="Customer Satisfaction Score" class="KPI"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:14</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">measured by</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11440" class="4EM_Relation">
+<FROM instance="Minimize Operational Costs" class="Goal"></FROM>
+<TO instance="Maximize Service Quality" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:1</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Contradicts</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11441" class="4EM_Relation">
+<FROM instance="Minimize Operational Costs" class="Goal"></FROM>
+<TO instance="Hire More Support Staff" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:13</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Hinders</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11442" class="4EM_Relation">
+<FROM instance="Hire More Support Staff" class="Goal"></FROM>
+<TO instance="Maximize Service Quality" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:11</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Supports</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11443" class="4EM_Relation">
+<FROM instance="Annual Budget Limit" class="Constraint"></FROM>
+<TO instance="Hire More Support Staff" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:15</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Hinders</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11444" class="4EM_Relation">
+<FROM instance="High Employee Turnover" class="Problem"></FROM>
+<TO instance="Maximize Service Quality" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:16</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Hinders</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11445" class="4EM_Relation">
+<FROM instance="Low Salary Levels" class="Cause"></FROM>
+<TO instance="High Employee Turnover" class="Problem"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:18</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Causes</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11446" class="4EM_Relation">
+<FROM instance="AI Chatbot Integration" class="Opportunity"></FROM>
+<TO instance="Minimize Operational Costs" class="Goal"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:17</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Supports</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.11447" class="4EM_Relation">
+<FROM instance="New AI Technology" class="Cause"></FROM>
+<TO instance="AI Chatbot Integration" class="Opportunity"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:19</ATTRIBUTE>
+<ATTRIBUTE name="Type" type="ENUMERATION">Causes</ATTRIBUTE>
+<ATTRIBUTE name="Description" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="IR" type="ENUMERATION">False</ATTRIBUTE>
+</CONNECTOR>
+</MODEL>
+</MODELS>
+</ADOXML>
