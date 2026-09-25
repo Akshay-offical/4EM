@@ -65,6 +65,9 @@ before the score.
 What a score means depends on the criterion, and the justification column states the
 reasoning in each case. As an example, for *Built-in communication* a 1 means the tool has no
 communication features at all, a 3 basic text messaging, and a 5 full video and audio chat.
+Capabilities available only in a paid plan were rated below comparable capabilities included in
+the free offering, since how accessible a tool is to every participant of a modeling session is
+part of what is being assessed.
 
 ### `References`
 
@@ -82,17 +85,20 @@ represents:
 
 ## Results
 
-The totals below are the ones reported in the paper.
+The totals below are the ones reported in the paper. The total is the unweighted sum of all
+27 criteria, so the maximum of a category depends only on how many criteria it contains. It is
+given for completeness; the tool selection was based on the capability profile across the
+categories and on the requirements set out in the paper, not on the total.
 
 | Category | Max | Miro | Draw.io | Mural | Lucidchart |
 |---|---|---|---|---|---|
-| Collaboration | 30 | 25 | 21 | 25 | 25 |
+| Collaboration | 30 | 25 | 22 | 25 | 25 |
 | Modeling Features | 25 | 17 | 18 | 15 | 20 |
 | Export & Conversion | 20 | 12 | 17 | 12 | 15 |
-| Access & Versioning | 15 | 14 | 11 | 10 | 12 |
+| Access & Versioning | 15 | 14 | 11 | 11 | 12 |
 | Practical Aspects | 15 | 11 | 13 | 10 | 10 |
 | Participatory Modeling | 30 | 21 | 17 | 25 | 19 |
-| **Total** | **135** | **100** | **97** | **97** | **101** |
+| **Total** | **135** | **100** | **98** | **98** | **101** |
 
 Draw.io and Mural were selected for the conversion pipelines. The aggregate score was not the
 deciding factor: Draw.io was chosen for its unrestricted structured XML export, and Mural as a
